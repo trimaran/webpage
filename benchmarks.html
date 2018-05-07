@@ -1,0 +1,155 @@
+<html>
+
+
+<!-- Mirrored from trimaran.org/benchmarks.shtml by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 May 2018 03:31:12 GMT -->
+<head>
+  <title>Trimaran Benchmark Packages</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <!--[if lt IE 7]>
+  <script defer type="text/javascript" src="pngfix.js"></script>
+  <![endif]-->
+</head>
+
+<body text="#000000">
+  <div id="container">
+  <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+    <td background="images/background-left.gif" width="98">&nbsp;</td>
+    <td valign=top>
+      <div id="title">
+      <center><table cellspacing=0 cellpadding=0 border=0><tr><td>
+      <img src="images/trimaran-logo.png" height="100" width="400" align="center"> 
+      </td></tr></table>
+      </center>
+      </div>
+      <div id="menu">
+        <ul id="menu">
+          <li>
+            <a href="index-2.html">home</a>
+          </li>
+          <li>
+            <a href="news.html"><b>news</b></a>
+          </li>
+          <li>
+            <a href="overview.html">overview</a>
+          </li>
+          <li>
+            <a href="documentation.html"><b>documentation</b></a>
+          </li>
+          <li>
+            <a href="requirements.html">requirements</a>
+          </li>
+         <li>
+            <a href="download.html"><b>download</b></a>
+          </li>
+         <li>
+            <a href="support.html">support</a>
+          </li>
+         <li>
+            <a href="contribute.html">contribute</a>
+         </li>
+       </ul>
+      </div>
+      <br>
+      <div id="main">
+
+
+  <p align="right">
+    <font size=+3><b>Benchmark Packages</b></font><br>
+    <hr>
+  </p>
+  <p align="justify">
+    Trimaran is distributed with a number of small benchmark packages
+    that are ready for use. Additional  benchmark packages
+    are available for <a href="#download">download</a>.
+    A Trimaran <i>benchmark package</i> contains the following:
+  <ul>
+    <li> 
+      <tt>compile_info</tt> and <tt>compile_parms</tt> files
+        that describe the options to use while preprocessing, compiling, 
+        and linking the benchmark.
+      </p>
+    </li>
+    <li> 
+      <tt>exec_info_(input_name)</tt> file for each 
+        input workload used to execute a benchmark. It
+        describes how to run and verify the benchmark for that particular input. 
+      </p>
+    </li>
+    <li>
+      <tt>input</tt> and <tt>output</tt> directories that 
+        contains  any input  files required  to
+        execute  a particular  benchmark, and the corresponding output
+        (expected result).  These directories are
+        used  by  the  <tt>exec_info_(input_name)</tt>  files to run
+        and verify a benchmark.
+      </p>
+    </li>
+    <li>
+      <tt>src</tt> directory containing all of the benchmark
+      source files in a flat directory structure .
+      </p>
+    </li>
+  </ul>
+  <hr>
+  <a name="download">
+    <font size=+1><b>Available Benchmark Packages</b></font><br>
+  <p align=justify> 
+    The following benchmarks packages are available for
+    download. However, for copyright  reasons, some packages do not contain the
+    benchmark source code. Each SPEC package however includes a script
+    to automate the copying of SPEC sources from your repository to the
+    Trimaran benchmark package directories. See the <tt>README</tt> file in each
+    of the downloaded files files for details.
+  </p>
+
+<table border=0 width="100%">
+<tr>
+<td valign=top width="15%"><a href="http://www.spec.org/">SPECINT 2K</a></td>
+<td width="75%"><a href="http://www.trimaran.org/cgi-bin/download-bench.pl?SPECint00.tgz">SPECint00.tgz</a></td>
+</tr>
+
+<tr><td><a href="http://www.spec.org/">SPECINT 95</a></td><td width="75%"><a href="http://www.trimaran.org/cgi-bin/download-bench.pl?SPECint95.tgz">SPECint95.tgz</td></tr>
+<tr><td><a href="http://www.spec.org/">SPECINT 92</a></td><td width="75%"><a href="http://www.trimaran.org/cgi-bin/download-bench.pl?SPECint92.tgz">SPECint92.tgz</td></tr>
+<tr><td><a href="http://euler.slu.edu/~fritts/mediabench/mb1/">Mediabench</a></td><td><a href="http://www.trimaran.org/cgi-bin/download-bench.pl?mediabench.tgz">mediabench.tgz</a></td></tr>
+<tr><td><a href="http://www.cs.princeton.edu/~mcc/olden.html">Olden</a></td><td><a href="http://www.trimaran.org/cgi-bin/download-bench.pl?olden.tgz">olden.tgz</a></td></tr>
+<tr><td><a href="http://www.eecs.umich.edu/mibench/">MiBench</a></td><td><a href="http://www.trimaran.org/cgi-bin/download-bench.pl?mibench.tgz">mibench.tgz</a></td></tr>
+<tr><td>NetBench</td><td><a href="http://www.trimaran.org/cgi-bin/download-bench.pl?netbench.tgz">netbench.tgz</a></td></tr>
+<tr><td>Encryption</td><td><a href="http://www.trimaran.org/cgi-bin/download-bench.pl?encryption.tgz">encryption.tgz</a></td></tr>
+
+</table>
+
+  <p align="justify">
+  The following may be used to extract a package:
+  <b>
+  <pre>
+    % cd trimaran/benchmarks
+    % gunzip -c filename.tgz | tar -xvf -
+  </pre>
+  </b>
+
+        <hr>
+        <br>
+        <div id="footer">
+        Last modified on May 23, 2010<br>
+        </div>
+        </div>
+      </td>
+      <td background="images/background-right.gif" width="98">&nbsp;</td>
+    </tr>
+  </table>
+  </div>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1681057-1";
+urchinTracker();
+</script>
+
+</body>
+
+
+<!-- Mirrored from trimaran.org/benchmarks.shtml by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 May 2018 03:31:12 GMT -->
+</html>
+
