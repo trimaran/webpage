@@ -1,0 +1,67 @@
+<html>
+
+<head>
+  <title>Trimaran Software Download</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <!--[if lt IE 7]>
+  <script defer type="text/javascript" src="pngfix.js"></script>
+  <![endif]-->
+</head>
+
+<!--#include virtual="header.inc"-->
+
+  <p align="right">
+    <font size=+3><b>Download</b></font><br>
+    <hr>
+  </p>
+  <p align="justify">
+  <table>
+    <tr>
+      <td valign=top><b>Trimaran</b></td><td width=15></td>
+       <td align="justify">
+	  A public release of Trimaran is available for download. You may
+          <b><a href="register.shtml">register and download</a></b> the
+	  full source package. 
+	  <ul>
+            <li><p align=justify>
+              Review the list of <a  href="requirements.shtml">software
+              requirements</a> before downloading Trimaran.
+            </li>
+            <li><p align=justify>
+               Read the <a href="documentation.shtml">Trimaran manual</a>
+	       for installation instructions as well instructions on how to
+	       use and develop in Trimaran.
+	     </li>
+             <li><p align=justify>
+                For technical assistance and support, you may <a
+                href="support.shtml">contact</a> the Trimaran support team.
+            </li>
+          </ul>
+        </td>
+    </tr>
+    <tr>
+      <td valign=top><b>SUIF add-on<br>Frontend</b></td><td width=15></td>
+      <td align="justify">
+        It is now possible to use the 
+        <a href=" http://suif.stanford.edu">SUIF</a> compiler and
+	its rich collection of high level program analysis passes
+	with the Trimaran compiler and its rich collection of
+	machine specific optimizations.
+
+	You may <b><a href="register.shtml">register and
+	download</a></b> our SUIF distribution and the SUIF to
+	Trimaran compiler. Our SUIF distrubution features bug fixes
+	and several enhancements to SUIF version 1.3.0.5.<br><br>
+      </td>
+    </tr>
+    <tr>
+      <td valign=top><b>Benchmarks</b></td><td width=15></td>
+      <td align="justify">
+          You may also download
+          <a href="benchmarks.shtml">benchmark packages</a>
+          for Trimaran.
+      </td>
+    </tr>
+  </table>
+
+<!--#include virtual="footer.inc"-->

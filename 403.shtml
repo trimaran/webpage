@@ -1,0 +1,19 @@
+<html>
+
+<head>
+  <title>Trimaran 403 Error</title>
+  <base href="http://www.trimaran.org/">
+&nbsp;<link rel="stylesheet" href="style.css" type="text/css">
+<!--[if lt IE 7]>
+<script defer type="text/javascript" src="pngfix.js"></script>
+<![endif]-->
+
+</head>
+
+<!--#include virtual="header.inc"-->
+
+  <p align="justify">
+Access to this directory is forbidden.
+  </p>
+
+<!--#include virtual="footer.inc"-->

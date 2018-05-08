@@ -1,0 +1,140 @@
+<html>
+
+<head>
+  <title>Trimaran System Requirements</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+<!--[if lt IE 7]>
+<script defer type="text/javascript" src="pngfix.js"></script>
+<![endif]-->
+
+</head>
+
+<!--#include virtual="header.inc"-->
+
+  <p align="right">
+    <font size=+3><b>System Requirements</b></font><br>
+    <hr>
+  </p>
+  <p align=justify>
+This Trimaran release has been extensively tested using Fedora Core 3, 4 and 5
+on x86 Linux, as well as Redhat Enterprise Linux 4 running on x86-64.  Users
+working with other operating systems may experience some obstacles in the
+installation process.
+</p>
+<!--
+    A typical Trimaran installation requires roughly 300 MB of disk
+	space. Trimaran has been compiled and certified on
+  </p>
+  <ul>
+    <li>
+      X86 Platforms with RedHat 5.2, 6.1 and 6.2
+    </li>
+    <li>
+      HP PA-RISC Platforms with HPUX 10.20
+    </li>
+  </ul>
+  <p align=justify>
+    <i>For  some of  the  larger SPEC  benchmarks,  at least  1 GB  of
+    virtual  memory   and  at   least  256  MB   of  real   memory  is
+    recommended.</i>
+  </p>
+-->
+  <b>Software Requirements:</b>
+  <ul>
+  <li><b>gcc</b> (tested extensively with version 4.0.1, but 3.2 and 3.4.4 should also work)</li>
+  <li><b>autoconf</b> version 2.54 </li>
+  <li><b>automake</b> version 1.7 </li>
+  </ul>
+<!--
+  <ul>
+    <li>
+      <b>TCL/Tk</b> (version 8.0p2)
+      <ul>
+        <li>Both <b>tclsh</b> and <b>wish</b> are required!</li>
+        <li>Available at <a href="http://www.scriptics.com/software/tcltk/8.0.html#Download Binary">http://www.scriptics.com/software/tcltk/8.0.html</a></li>
+      </ul>
+    </li>
+    <br>
+    <li>
+      <b>Perl</b> (version 5.0)
+      <ul>
+        <li>Must be available as <b>/usr/local/bin/perl</b>.</li>
+        <li>Available at <a href="http://www.gnu.org/software/perl/perl.html">http://www.gnu.org/software/perl/perl.html</a></li>
+      </ul>
+    </li>
+    <br>
+    <li>
+      <b>GNU Make</b> (version 3.77)
+      <ul>
+        <li>Must be available as <b>gnumake</b> and <b>make</b> in your path.</li>
+        <li>Available at <a href="http://www.gnu.org/software/make/make.html">http://www.gnu.org/software/make/make.html</a></li>
+      </ul>
+    </li>
+    <br>
+    <li>
+      <b>IMake</b>
+        <ul>
+          <li>A current version of <b>imake</b> including the <b>make depend</b> capability is required.</li>
+          <li>Available at <a href="http://www.primate.wisc.edu/software/imake-book/index.html">
+              http://www.primate.wisc.edu/software/imake-book/index.html</a><br>
+              We strongly recommend installing
+              <a href="http://www.primate.wisc.edu/software/imake-book/index.html#distributions">
+              itools-R6.3.tar.gz</a> (from the above web site). It is known to be compatible with Trimaran.</li>
+        </ul>
+    </li>
+    <br>
+    <li>
+      <b>GNU gzip</b> and <b>GNU gunzip</b>
+      <ul>
+        <li>Available at <a href="http://www.gnu.org/software/gzip/gzip.html">http://www.gnu.org/software/gzip/gzip.html</a></li>
+      </ul>
+    </li>
+      <br>
+      <li>
+        <b>GNU Compiler Collection (gcc)</b> (version 2.95.2 or 2.95.3)
+      <ul>
+        <li>Available at <a href="http://www.gnu.org/software/gcc/gcc.html">http://www.gnu.org/software/gcc/gcc.html</a></li>
+      </ul>
+    </li> 
+    <br>
+    <li>
+      <b>GNU ar</b> and <b>GNU ranlib</b> (version 2.9.1)
+      <ul>
+        <li>Available at <a href="http://www.gnu.org/software/binutils/binutils.html">http://www.gnu.org/software/binutils/binutils.html</a></li>
+      </ul>
+    </li> 
+    <br>
+    <li>
+      <b>GNU emacs</b>
+      <ul>
+        <li>Available at <a href="http://www.gnu.org/software/emacs/emacs.html">http://www.gnu.org/software/emacs/emacs.html</a></li>
+      </ul>
+    </li> 
+    <br>
+    <li>
+      <b>VCG</b>
+      <ul>
+        <li>Must be available as <b>xvcg</b> in your path.</li>
+        <li>Available at <a href="http://www.cs.uni-sb.de/RW/users/sander/html/gsvcg1.html#availability">
+            http://www.cs.uni-sb.de/RW/users/sander/html/gsvcg1.html</a></li>
+      </ul>
+    </li>
+    <br>
+    <li>
+      <b>xterm</b><br>
+    </li>
+    <br>
+    <li>
+      <b>tcsh</b>
+    </li>
+  </ul>
+-->
+  <b>Optional Software:</b>
+  <ul>
+    <li>
+      <b>dot</b> - Graph visualization tool used by the back-end
+      (<a href="http://www.research.att.com/sw/tools/graphviz/">download</a>)</li>
+    </li>
+  </ul> 
+
+<!--#include virtual="footer.inc"-->

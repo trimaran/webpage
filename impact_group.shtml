@@ -1,0 +1,131 @@
+<html>
+
+<head>
+  <title>IMPACT Research Group</title>
+  <base href="http://www.trimaran.org/">
+  <link rel="stylesheet" href="style.css" type="text/css">
+<!--[if lt IE 7]>
+<script defer type="text/javascript" src="pngfix.js"></script>
+<![endif]-->
+
+</head>
+
+<!--#include virtual="header.inc"-->
+
+    <center>
+      <!--img src="images/impact_logo.gif"-->
+      <font size=+3><b>The IMPACT Research Group<br>University of Illinois at Urbana-Champaign</b></font>
+    </center>
+    <br>
+    <br>
+    <hr align=center>
+    <br>
+    <br>
+    <p align=justify>
+      <font size=+1><b>About IMPACT</b></font><br>
+      <br>
+      The objective of IMPACT (Illinois Microarchitecture Project
+      utilizing Advanced Compiler Technology) is to provide critical
+      research, architecture expertise, and compiler prototypes for
+      the microprocessor industry.  This objective is accomplished by
+      analyzing and demonstrating the level of hardware and compiler
+      support required by architectural enhancements in order to
+      understand the cost and effectiveness of these enhancements.
+      IMPACT's primary focus is on exposing, enhancing, and exploiting
+      instruction-level parallelism (ILP).<br>
+      <br>
+      The IMPACT compiler framework was created by the
+      <a href="http://www.crhc.uiuc.edu/IMPACT/">IMPACT research group</a>
+      under the direction of
+      <a href="http://www.ece.uiuc.edu/faculty/profile.asp?w-hwu">Professor Wen-mei
+      W. Hwu</a>.  The IMPACT research group is affiliated with the
+      <a href="http://www.crhc.uiuc.edu/">Center for Reliable and
+      High-Performance Computing</a> which is part of the
+      <a href="http://www.csl.uiuc.edu">Coordinated Science Laboratory</a>,
+      an interdisciplinary research organization at the
+      <a href="http://www.uiuc.edu/">University of Illinois at
+      Urbana-Champaign</a>.  Wen-mei Hwu is a Professor at the
+      <a href="http://www.ece.uiuc.edu">Department of Electrical and
+      Computer Engineering</a>.  Graduate students from the IMPACT research
+      group are from either the Department of Electrical and Computer
+      Engineering or the
+      <a href="http://www.cs.uiuc.edu">Department of Computer Science</a>.
+      Details about IMPACT team members, past and present,
+      who developed this framework can be found at the IMPACT web page,
+      <a href="http://www.crhc.uiuc.edu/IMPACT/">http://www.crhc.uiuc.edu/IMPACT</a>.<br>
+      <br>
+      <font size=+1><b>Acknowledgments</b></font><br>
+      <br>
+
+      The IMPACT public and Trimaran release effort (versions 1.00-2.33) was lead 
+      by <a href="http://www.crhc.uiuc.edu/~gyllen"> Professor John
+      Gyllenhaal</a>. 
+
+      He would like to thank Professor Wen-mei W. Hwu for encouraging
+      and supporting this release effort;   Brian Deitrich and  Daniel
+      Lavery for leading and coordinating the IMPACT beta releases
+      prior to May 1997;  John Sias,  Ben-Chung Cheng, <a
+      href="http://ece-www.colorado.edu/~dconnors/">  Dan Connors</a>,
+      <a href="http://www.eecs.umich.edu/~mahlke/">  Scott Mahlke</a>,
+      <a href="http://www.cs.princeton.edu/~august/">  David
+      August</a>, Liesl Little,  Matthew Merten,  Andy Trick,  Patrick
+      Eaton,  Rick Hank,  Le-Chun Wu,  Qudus Olaniran</a>, Sabrina
+      Hwu, and Jason  Fritts for their extensive help in making these
+      releases stable and for graciously acting as sounding boards
+      even when they were extremely busy with  their own research; and
+      the IMPACT compiler team in general for all of their
+      contributions, help, and support. He would also like to thank
+      all the Trimaran  council members, especially Vinod Kathail,  Ralph
+      Hyver, Tom Christian and Han-Soo
+      Kim</a>, and the entire Trimaran team, especially <a
+      href="http://people.csail.mit.edu/rabbah/">Rodric Rabbah</a>, for
+      their efforts to make the Trimaran release a success.<br>
+      <br>
+
+      Brian Deitrich, Daniel Lavery, and John Gyllenhaal would also
+      like to thank the IMPACT  public release beta testers for all
+      their feedback.<br>
+      <br>
+
+      The IMPACT research group thanks the
+      National Science Foundation (NSF)  for supporting a significant
+      portion of this release effort  under grant CCR-9809404.<br>
+      <br> 
+
+      The IMPACT compiler framework is the result of numerous
+      research efforts by 45+ graduate students over the last ten
+      years.  These research efforts were supported by the National
+      Science Foundation (NSF) under grants CCR-9809478, CCR-9629948,
+      MIP-930813, and MIP-8809478, Hewlett-Packard, Intel Corporation,
+      Advanced Micro Devices, Microsoft, SUN Microsystems, NCR, Mazda
+      Motor Corporation, Matsushita Electric Industrial Corporation,
+      Joint Services Engineering Programs (JSEP) under contract
+      N00014-90-J-1270, and the National Aeronautics and Space
+      Administration (NASA) under Contract NASA NAG 1-613 in
+      cooperation with the Illinois Computer Laboratory for Aerospace
+      Systems and Software (ICLASS).<br> 
+      <br> 
+
+      The IMPACT compiler's C front end is built upon the <a
+      href="http://www.edg.com">Edison Design Group's</a> C/C++ front
+      end  (see <a
+      href="http://www.crhc.uiuc.edu/IMPACT/ftp/software/EDG_CTOP_LICENSE">
+      EDG_CTOP_LICENSE</a>).<br>
+      <br> 
+
+      IMPACT's predicate analysis makes extensive use of the <a
+      href="http://vlsi.colorado.edu/~fabio/">CUDD-2.2.0</a> package
+      developed at the University of Colorado at Boulder by Fabio
+      Somenzi.<br>
+      <br>
+
+      The IMPACT compiler framework relies on the
+      portable Lcode (IMPACT's IR) emulator, platform info framework,
+      and the portability enhancements developed by IMPACT
+      Technologies, Inc.  (see <a
+      href="http://www.crhc.uiuc.edu/IMPACT/ftp/software/ITI_LICENSE">
+      ITI_LICENSE</a>) to allow IMPACT's and Trimaran's IR to be
+      emulated on a wide variety of platforms.
+    </p>
+
+<!--#include virtual="footer.inc"-->

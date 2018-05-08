@@ -1,0 +1,53 @@
+<html>
+
+<head>
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+  <title>Trimaran LivePC Download</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+<!--[if lt IE 7]>
+<script defer type="text/javascript" src="pngfix.js"></script>
+<![endif]-->
+
+</head>
+
+<!--#include virtual="header.inc"-->
+
+  <p align="right">
+    <font size=+3><b>LivePC Download</b></font><br>
+    <hr>
+  </p>
+
+    <font size=+1><b>Pre-Installed Release</b></font><br>
+<br>
+<center>
+<table width="100%" border=1>
+
+<tr>
+  <td width="25%"><b>File</b></td>
+  <td width="10%"><b>Size</b></td>
+  <td width-"65%"><b>Description</b></td>
+</tr>
+<tr>
+<td><a href="http://www.trimaran.org/cgi-bin/redirect.pl?http://www.moka5.com/node/117">Trimaran LivePC</a></td>
+<td>1.15GB</td>
+<td>Trimaran 3.7 pre-installed in a Linux host, requires free <a href="http://www.moka5.com/products/getstarted.html">Moka5 player</a></td>
+
+</tr>
+<tr>
+<td><a href="http://www.trimaran.org/cgi-bin/redirect.pl?http://www.moka5.com/node/321">Trimaran+SUIF LivePC</a></td>
+<td>1.19GB</td>
+<td>Trimaran 3.7 with SUIF pre-installed in a Linux host, requires free <a href="http://www.moka5.com/products/getstarted.html">Moka5 player</a></td>
+</tr>
+</table>
+</center>
+  <p align="justify">The Trimaran LivePC is a pre-installed version of
+  Trimaran in a Linux host. It offers convenience for those using
+  Trimaran in an educational setting because the LivePC can be
+  administered centrally and then distributed to students. The LivePC
+  is also a convenient alternative to those who run into installation
+  problems and cannot install the pre-requisite software.
+  </p>
+
+  <p align="justify">The Trimaran+SUIF LivePC combines the Trimaran compiler with a SUIF frontend, thus enabling the use of SUIF high level program analysis passes with the Trimaran compiler and its rich collection of machine specific optimizations.</p>
+
+<!--#include virtual="footer.inc"-->

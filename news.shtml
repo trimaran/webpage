@@ -1,0 +1,75 @@
+<html>
+
+<head>
+  <title>Trimaran News</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+<!--[if lt IE 7]>
+<script defer type="text/javascript" src="pngfix.js"></script>
+<![endif]-->
+
+</head>
+
+<!--#include virtual="header.inc"-->
+
+  <p align="right">
+    <font size=+3><b>News</b></font><br>
+    <hr>
+  </p>
+  <table width=95% cellspacing=10 cellpadding=0 border=0>
+    <tr>
+      <td align=left valign=top>
+        <b>12/16/2007</b>
+      </td>
+      <td align=left valign=top>
+        <p align=justify>
+        <a href="download.shtml">Trimaran 4.0</a> offering:
+        <ul>
+        <li>Support for multi-cluster architectures. The clusters can be
+        organized as either sharing an inter-cluster communication bus or
+        a mesh point-to-point operand network.</li>
+        <li>Support for application-specific instruction-set extensions.</li>
+        <li>Support for automatic vectorization <!--(<a href="http://people.csail.mit.edu/slarsen/Larsen-MICRO38.pdf">paper</a>, <a href="http://people.csail.mit.edu/slarsen/Larsen-PhD.pdf">thesis</a>)-->.</li>
+        <li>Support for Fortran applications via a SUIF to Trimaran
+          translator.</li>
+        <li>Advanced simulation of the memory system using the <a href="http://m5.eecs.umich.edu/">M5 simulator</a>.</li>
+        <li>Code generation infrastructure to handle ISAs with arbitrary literal
+        bit-width constraints.</li>
+        <li>Code generation for the ARM ISA.</li>
+        <li>New datatype attribute associated with every operand to describe
+        the data type (integer/float/predicate), whether the operand is signed
+        or unsigned, and the operand bit-width. </li> 
+        <li>Support for the <tt>long long</tt> datatype.</li>
+        <li>Register allocation has been 
+        completely rewritten and many optimizations have been added to the
+        default path.</li>
+        <li>Significantly improved code quality.</li>
+        <li>Lots of bug fixes.</li>
+        <li>A new comprehensive <a href="docs/trimaran4_manual.pdf">manual</a>.
+        </ul>
+        </p>
+      </td>
+    </tr> 
+    <tr>
+      <td align=left valign=top>
+        <b>12/16/2007</b>
+      </td>
+      <td align=left valign=top>
+        <p align=justify>
+        SUIF <a href="download.shtml">add-on frontend</a> to Trimaran. This frontend implements a set of SUIF passes that convert SUIF IR to Trimaran IR (<tt>lcode</tt>). This add-on combines SUIF high level program analysis passes with the Trimaran compiler and its rich collection of machine specific optimizations. Sam Larsen's <a href="http://www.cag.csail.mit.edu/~slarsen/Larsen-PhD.pdf">doctoral</a> works demonstrates the value of combining frontend program analysis and backend machine optimizations in the context of automatic vectorization.
+        </p>
+    </tr> 
+    <tr>
+      <td align=left valign=top>
+        <b>12/16/2007</b>
+      </td>
+      <td align=left valign=top>
+        <p align=justify>
+        New <a href="benchmarks.shtml">benchmark packages</a> are available for <a href="download.shtml">download</a>.
+        </p>
+    </tr>
+
+  </table>
+
+<p align=justify>Older news is <a href="archives.shtml">archived</a>.</p>
+
+<!--#include virtual="footer.inc"-->

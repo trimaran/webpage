@@ -1,0 +1,65 @@
+<html>
+
+<head>
+  <title>CAR Group Research Interns</title>
+  <base href="http://www.trimaran.org/">
+  <link rel="stylesheet" href="style.css" type="text/css">
+<!--[if lt IE 7]>
+<script defer type="text/javascript" src="pngfix.js"></script>
+<![endif]-->
+
+</head>
+
+<!--#include virtual="../header.inc"-->
+
+  <p align="right">
+    <font size=+3><b>Research Interns</b></font><br>
+    <hr>
+  </p>
+  <ul>
+    <li><p align=justify><b>Alex Eichenberger</b> (Summer 1994 and 1995), University of
+    Michigan.  Worked on rotating register allocation and stage
+    scheduling.</li>
+   
+    <li><p align="justify"><b>Joel Jones</b> (Summer 1994 and 1995), University of Illinois.
+    Worked on modulo scheduling.</li>
+   
+    <li><p align="justify"><b>Sirni Mantripragada</b> (Summer 1994), University of California,
+    Irvine.  Worked on the development of a prototype scalar scheduler.</li>
+   
+    <li><p align="justify"><b>David August</b> (Summer 1995), University of Illinois.  Worked on
+    the control flow analysis tools, preparation of loops for
+    software-pipelining and if-conversion.</li>
+   
+    <li><p align="justify"><b>Brian Deitrich</b> (Summer 1995), University of Illinois.  Worked
+    on hyper-block scheduling and meld scheduling.</li>
+   
+    <li><p align="justify"><b>Teresa Johnson</b> (Summer 1996), University of Illinois.  Worked
+    on the cache-miss sensitive load scheduler and HPL-PD simulation path.</li>
+   
+    <li><p align="justify"><b>Matthai Philipose</b> (Summer 1996), University of Washington.
+    Extended the control-flow analysis and transformations.  Also worked
+    on the region formation tool-set.</li>
+   
+    <li><p align="justify"><b>Sumedh Sathaye</b> (Summer 1996), North Carolina State
+    University.  Worked on reaching-definition analysis and register
+    renaming.</li>
+   
+    <li><p align="justify"><b>Marnix Arnold</b> (Summer 1997), Delft University.  Worked on the
+    code generation to support machine-specific literal types, complex
+    operations, and emulation of unsupported operations.</li>
+   
+    <li><p align="justify"><b>Daniel Connors</b> (Summer 1997), University of Illinois.
+    Developed an inter-procedural call graph representation in Elcor and
+    worked on code transformation to exploit local memory structures.</li>
+   
+    <li><p align="justify"><b>Matt Jennings</b> (Summer 1997), North Carolina State University.
+    Worked on classical optimizations including common sub-expression
+    elimination and loop-invariant code removal.</li>
+
+    <li><p align="justify"><b>Suren Talla</b> (Summer, 1997) New York University.  Worked on
+    resource and recurrence estimators for acyclic code, and an iterative
+    data height reduction system to reduce critical path lengths.</li>
+    </p></ul>
+
+<!--#include virtual="../footer.inc"-->

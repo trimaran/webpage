@@ -1,0 +1,37 @@
+<html>
+
+<head>
+  <title>Trimaran Support</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+<!--[if lt IE 7]>
+<script defer type="text/javascript" src="pngfix.js"></script>
+<![endif]-->
+
+</head>
+
+<!--#include virtual="header.inc"-->
+
+  <p align="right">
+    <font size=+3><b>Support</b></font><br>
+    <hr>
+  </p>
+<p align=justify>
+For all technical question or to reach other researchers that are using Trimaran, write to <b>trimaran-users at trimaran.org</b>. You must be subscribed to the mailing list in order to post new messages. Please visit the <a href="http://trimaran.org/mailman/listinfo/trimaran-users_trimaran.org">Trimaran users information page</a> to subscribe or for more information.
+</p>
+<p align="justify">
+Before posting a new question, please take the time to review <a href="http://box288.bluehost.com/pipermail/trimaran-users_trimaran.org/">archived postings</a> as your question may have already been answered. Older archives are found <a href="http://lists.csail.mit.edu/mailman/listinfo/trimaran-users">here</a>.
+</p>
+<p align="justify">
+For general comments and non-technical question, write to <b>support at trimaran.org</b>.
+</p>
+
+<!--
+    <li>
+      Check the <a href="faq.shtml">Trimaran FAQ</a>.
+    </li>
+    <li>
+      Visit the <a href="messages.shtml">Trimaran Message Forum</a>.
+    </li>
+-->
+
+<!--#include virtual="footer.inc"-->

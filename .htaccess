@@ -1,0 +1,9 @@
+AddType text/html .shtml
+AddHandler server-parsed .shtml
+
+# For security reasons, Option followsymlinks cannot be overridden.
+#Options Indexes FollowSymLinks Includes
+Options Indexes SymLinksIfOwnerMatch Includes
+Options +Includes
+Options -Indexes
+DirectoryIndex index.shtml

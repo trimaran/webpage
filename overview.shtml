@@ -1,0 +1,98 @@
+<html>
+
+<head>
+  <title>Trimaran Overview</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+<!--[if lt IE 7]>
+<script defer type="text/javascript" src="pngfix.js"></script>
+<![endif]-->
+
+</head>
+
+<!--#include virtual="header.inc"-->
+
+  <p align="right">
+    <font size=+3><b>Overview</b></font><br>
+    <hr>
+  </p>
+<p align="justify">
+The following presents a brief overview of Trimaran. A more elaborate
+overview appears in 
+<a href="http://dx.doi.org/10.1007/11532378_4">Lecture Notes in Computer
+Science</a>.
+<p align="justify">Trimaran is an integrated compiler and simulation infrastructure for
+research in computer architecture and compiler optimizations. Trimaran
+is highly parameterizable, and can target a wide range of
+architectures that embody embedded processors, high-end VLIW
+processors, and multi-clustered architectures. Trimaran also
+facilitates the exploration of the architecture design space, and is
+well suited for the automatic synthesis of programmable application
+specific architectures. It allows for customization of all aspects of
+an architecture, including the datapath, control path, instruction
+set, interconnect, and instruction/data memory subsystems.
+<p align="justify">
+The modular nature of the compiler and the hierarchical intermediate
+program representation used throughout makes the construction and
+insertion of new compilation modules into the compiler especially
+easy. Trimaran is already populated with a large number of existing
+compilation modules, providing leverage for new compiler research as
+well as education in advanced compiler topics. The Trimaran Graphical
+User Interface (GUI) makes the configuration and use of the system
+surprisingly easy.
+<p align="justify">
+Among the rich suite of compiler analysis and optimizations are:
+<ul>
+<li>Advanced region formation algorithms (e.g., superblocks and
+hyperblocks) to expose instruction level parallelism with speculation
+and predication.</li>
+<li>Various backend instruction partitioning and mapping algorithms
+for automatically distributing parallelism in a multi-clustered
+architecture.</li>
+<li> A first of its kind <a href="http://www.cag.lcs.mit.edu/slarsen/Larsen-PhD.pdf">backend vectorizer</a> that extracts and
+exploits data level parallelism using short vector instructions (SIMD).</li>
+<li>Various register allocation heuristics.</li>
+<li>Instruction scheduling algorithms including software pipelining
+with modulo scheduling.</li>
+</ul>
+
+<p align="justify">
+Although there are several compiler infrastructures available to the
+research community, Trimaran is unique in that it is especially geared
+toward compiler and architecture research. Trimaran is used for
+designing, implementing, and testing new optimizations, as well as the
+evaluation of various architectural innovations. Trimaran is also
+widely used for teaching and education purposes at several
+universities worldwide.
+
+<p align="justify">
+We are committed to releasing a robust, tested, and documented
+system. Our website (http://www.trimaran.org) provides the latest
+information on Trimaran, and includes links to download the system, as
+well as documentation and other useful resources.
+<p>
+The following is a summary of the newest Trimaran features made
+available in an current release (dated 12/16/2007).
+<ul>
+<li>Support for multi-cluster architectures. The clusters can be
+organized as either sharing an inter-cluster communication bus or
+a mesh point-to-point operand network.</li>
+<li>Support for application-specific instruction-set extensions.</li>
+<li>Support for automatic vectorization.</li>
+<li>Support for Fortran applications via a SUIF to Trimaran
+  translator.</li>
+<li>Advanced simulation of the memory system using the <a href="http://m5.eecs.umich.edu/">M5 simulator</a>.</li>
+<li>Code generation infrastructure to handle ISAs with arbitrary literal
+bit-width constraints.</li>
+<li>Code generation for the ARM ISA.</li>
+<li>New datatype attribute associated with every operand to describe
+the data type (integer/float/predicate), whether the operand is signed
+or unsigned, and the operand bit-width.</li> 
+<li>Support for the <tt>long long</tt> datatype.</li>
+<li>Register allocation has been 
+completely rewritten and many optimizations have been added to the
+default path.</li>
+<li>Significantly improved code quality.</li>
+<li>Lots of bug fixes.</li>
+</ul>
+
+<!--#include virtual="footer.inc"-->

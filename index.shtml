@@ -1,0 +1,142 @@
+<html>
+
+<head>
+  <meta name="google-site-verification" content="I0rf4gjBzpzHVAquhkHhN0WGIcKjP6LD-EsasTsfdT4" />
+  <title>Trimaran Homepage</title>
+ 
+  <script language="JavaScript">
+  <!-- hide
+    // Cookie functions (getCookieVal, GetCookie, SetCookie) were written by:
+    //  Bill Dortch, hIdaho Design <bdortch@hidaho.com>
+
+    function getCookieVal (offset) {
+      var endstr = document.cookie.indexOf (";", offset);
+      if (endstr == -1)
+        endstr = document.cookie.length;
+      return unescape(document.cookie.substring(offset, endstr));
+    }
+
+    function GetCookie (name) {
+      var arg = name + "=";
+      var alen = arg.length;
+      var clen = document.cookie.length;
+      var i = 0;
+      while (i < clen) {
+        var j = i + alen;
+        if (document.cookie.substring(i, j) == arg)
+          return getCookieVal (j);
+        i = document.cookie.indexOf(" ", i) + 1;
+        if (i == 0) break; 
+      }
+      return null;
+    }
+
+    function SetCookie (name,value,expires,path,domain,secure) {
+      document.cookie = name + "=" + escape (value) +
+        ((expires) ? "; expires=" + expires.toGMTString() : "") +
+        ((path) ? "; path=" + path : "") +
+        ((domain) ? "; domain=" + domain : "") +
+        ((secure) ? "; secure" : "");
+    }
+
+    function openWin3() {
+      if ( GetCookie("DidOpenWin") == null) {
+        myWin= open("", "displayWindow", "width=270,height=285,resizable=yes,status=yes,toolbar=yes,menubar=yes,scrollbars=yes"); 
+        // open document for further output
+        myWin.document.open();
+        // create document
+        // myWin.document.write("");
+        // close the document - (not the window!)
+        myWin.document.close();
+      }
+      SetCookie ("DidOpenWin", "True", null, null, null, false); 
+    }
+  // -->
+  </script>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <!--[if lt IE 7]>
+  <script defer type="text/javascript" src="pngfix.js"></script>
+  <![endif]-->
+</head>
+
+<!--#include virtual="header.inc"-->
+
+  <center>
+    <font size=+3><b>An Infrastructure for Research in<br>
+    Backend Compilation and Architecture Exploration</b></font>
+  </center>
+  <hr align=center>
+  <p align=justify>
+    Trimaran is an integrated compilation and performance monitoring
+    infrastructure.  The architecture space that Trimaran covers is
+    characterized by <a href="documentation.shtml">HPL-PD</a>, a parameterized
+    processor architecture supporting novel features such as predication,
+    control and data speculation and compiler controlled management of the
+    memory hierarchy.  Trimaran also consists of a full suite of analysis and
+    optimization modules, as well as a graph-based intermediate language.
+    Optimizations and analysis modules can be easily added, deleted or bypassed,
+    thus facilitating compiler optimization research. Similarly, computer
+    architecture research can be conducted by varying the HPL-PD machine via the
+    machine description language HMDES.  Trimaran also provides a detailed
+    simulation environment and a flexible performance monitoring environment
+    that automatically tracks the machine as it is varied. Trimaran is
+    intended for researchers and educators interested in the following
+    topics:<br>
+
+  <center>
+  <table cellspacing=0 cellpadding=0 border=0>
+  <tr>
+    <td width=400><b><u>Compiler Technology</u></b></td>
+    <td width=10>&nbsp;</td>
+    <td width=400><b><u>Computer Architecture</u></b></td>
+  </tr>
+  <tr valign=top>
+    <td>
+      <li>Instruction-Level Parallelism (ILP)</li>
+      <li>Compiler Optimizations</li>
+      <li>Code Generation Technology</li>
+      <li>Instruction Set Customization</li>
+      <li>Retargetable Compilation</li>
+    </td>
+    <td width=10>&nbsp;</td>
+    <td>
+      <li>High-Performance Embedded Processors</li>
+      <li>Application Specific Processors</li>
+      <li>Very Long Instruction Word Processors (VLIW)</li>
+      <li>Explicitly Parallel Instruction Computing (EPIC)</li>
+      <li>Design Space Exploration</li>
+    </td>
+  </tr>
+  </table>
+  </center>
+
+  <hr>
+  <hr>
+  <b><font color=red>Latest news:</font></b><ul>
+    <li>Trimaran 4.0 is now available for <a href="download.shtml">download</a>.</li>
+    <li>A SUIF add-on frontend is also now available for <a href="download.shtml">download</a>.</li>
+    <li>New <a href="benchmarks.shtml">benchmark packages</a> are available for <a href="download.shtml">download</a>.</li>
+  </ul>
+  <hr><hr>
+
+  <p align=justify> 
+    Trimaran began as a collaborative effort between the <a href="car_group.shtml">Compiler and
+    Architecture Research (CAR) Group</a> (once a member of Hewlett
+    Packard Laboratories), the <a href="impact_group.shtml">IMPACT
+    Group</a> at the University of Illinois, and the ReaCT-ILP
+    Laboratory at New York University (now known as <a
+    href="http://crest.gatech.edu">CREST</a>, the Center for Research
+    on Embedded Systems and Technology</a> at the Georgia Institute of
+    Technology).  During the past few years, Trimaran was actively developed and
+    maintained by the <a href="http://cccp.eecs.umich.edu">CCCP
+    Group</a> at the University of Michigan, and the <a
+    href="http://groups.csail.mit.edu/commit/">Commit Group</a> at
+    MIT. Today's active contributors are the <a href="http://cccp.eecs.umich.edu">CCCP group</a>, <a href="http://www.cc.gatech.edu/~ntclark/">Prof. Nathan Clark</a> at the Georgia Institute of Technology, and <a href="http://people.csail.mit.edu/rabbah/">Rodric Rabbah</a> at IBM Research.<br>
+    <br>
+    <i>Trimaran is distributed without charge for non-commercial
+    use.</i> 
+  </p>
+
+<!--#include virtual="footer.inc"-->
+
+ 
