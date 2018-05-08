@@ -80,12 +80,12 @@
     <font size =+1><b>License and Copyright</b></font>
     <p align="justify">
     Most  of the  Trimaran software  is  released under  a uniform  <a
-    href="general_license.shtml">Software License  Agreement Notice</a>, which,
+    href="general_license.html">Software License  Agreement Notice</a>, which,
     with the copyright notice  filled in appropriately, appears at the
     beginning   of  each   program  source   file  governed   by  this
     agreement. At  present, ReaCT-ILP contributed  code is distributed
     under      a      similar      but      not      identical      <a
-    href="reactilp_license.shtml">ReaCT-ILP   License   Agreement   and
+    href="reactilp_license.html">ReaCT-ILP   License   Agreement   and
     Copyright Notice</a>, which also  appears at the beginning of each
     program  source file  governed by  this agreement.   Please review
     both these agreements before you download the software.

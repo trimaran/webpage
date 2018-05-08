@@ -28,7 +28,7 @@
            There are various other features that were added (and bugs
       fixes) but not documented here. This release does pass our
       regression test suite and is fairly stable. Please report any
-      problems directly to the <a href="support.shtml">support team</a>. A new Trimaran
+      problems directly to the <a href="support.html">support team</a>. A new Trimaran
       distribution will also be made available soon which will include
       support for clustered architectures.<br>
            <br>
@@ -94,7 +94,7 @@
       </td>
       <td align=left valign=top>
         <p align=justify>
-          <!--a href="triceps.shtml"-->Triceps is  an ARM Code Generator
+          <!--a href="triceps.html"-->Triceps is  an ARM Code Generator
 		  now packaged with Trimaran.  This a beta release version and
 		  incremental  updates   will  be  released   as  they  become
 		  available.
@@ -107,7 +107,7 @@
       </td>
       <td align=left valign=top>
         <p align=justify>
-          The  first issue  of the  <a href="newsletter.shtml">Trimaran
+          The  first issue  of the  <a href="newsletter.html">Trimaran
           Newsletter</a> is now available.
         </p>
       </td>

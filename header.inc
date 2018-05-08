@@ -13,28 +13,28 @@
       <div id="menu">
         <ul id="menu">
           <li>
-            <a href="index.shtml">home</a>
+            <a href="index.html">home</a>
           </li>
           <li>
-            <a href="news.shtml"><b>news</b></a>
+            <a href="news.html"><b>news</b></a>
           </li>
           <li>
-            <a href="overview.shtml">overview</a>
+            <a href="overview.html">overview</a>
           </li>
           <li>
-            <a href="documentation.shtml"><b>documentation</b></a>
+            <a href="documentation.html"><b>documentation</b></a>
           </li>
           <li>
-            <a href="requirements.shtml">requirements</a>
+            <a href="requirements.html">requirements</a>
           </li>
          <li>
-            <a href="download.shtml"><b>download</b></a>
+            <a href="download.html"><b>download</b></a>
           </li>
          <li>
-            <a href="support.shtml">support</a>
+            <a href="support.html">support</a>
           </li>
          <li>
-            <a href="contribute.shtml">contribute</a>
+            <a href="contribute.html">contribute</a>
          </li>
        </ul>
       </div>

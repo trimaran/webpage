@@ -69,7 +69,7 @@
   <p align=justify>
     Trimaran is an integrated compilation and performance monitoring
     infrastructure.  The architecture space that Trimaran covers is
-    characterized by <a href="documentation.shtml">HPL-PD</a>, a parameterized
+    characterized by <a href="documentation.html">HPL-PD</a>, a parameterized
     processor architecture supporting novel features such as predication,
     control and data speculation and compiler controlled management of the
     memory hierarchy.  Trimaran also consists of a full suite of analysis and
@@ -113,16 +113,16 @@
   <hr>
   <hr>
   <b><font color=red>Latest news:</font></b><ul>
-    <li>Trimaran 4.0 is now available for <a href="download.shtml">download</a>.</li>
-    <li>A SUIF add-on frontend is also now available for <a href="download.shtml">download</a>.</li>
-    <li>New <a href="benchmarks.shtml">benchmark packages</a> are available for <a href="download.shtml">download</a>.</li>
+    <li>Trimaran 4.0 is now available for <a href="download.html">download</a>.</li>
+    <li>A SUIF add-on frontend is also now available for <a href="download.html">download</a>.</li>
+    <li>New <a href="benchmarks.html">benchmark packages</a> are available for <a href="download.html">download</a>.</li>
   </ul>
   <hr><hr>
 
   <p align=justify> 
-    Trimaran began as a collaborative effort between the <a href="car_group.shtml">Compiler and
+    Trimaran began as a collaborative effort between the <a href="car_group.html">Compiler and
     Architecture Research (CAR) Group</a> (once a member of Hewlett
-    Packard Laboratories), the <a href="impact_group.shtml">IMPACT
+    Packard Laboratories), the <a href="impact_group.html">IMPACT
     Group</a> at the University of Illinois, and the ReaCT-ILP
     Laboratory at New York University (now known as <a
     href="http://crest.gatech.edu">CREST</a>, the Center for Research
@@ -131,7 +131,7 @@
     maintained by the <a href="http://cccp.eecs.umich.edu">CCCP
     Group</a> at the University of Michigan, and the <a
     href="http://groups.csail.mit.edu/commit/">Commit Group</a> at
-    MIT. Today's active contributors are the <a href="http://cccp.eecs.umich.edu">CCCP group</a>, <a href="http://www.cc.gatech.edu/~ntclark/">Prof. Nathan Clark</a> at the Georgia Institute of Technology, and <a href="http://people.csail.mit.edu/rabbah/">Rodric Rabbah</a> at IBM Research.<br>
+    MIT. Today's active contributors are the <a href="http://cccp.eecs.umich.edu">CCCP group</a>, <a href="http://www.cc.gatech.edu/~ntclark/">Prof. Nathan Clark</a> at the Georgia Institute of Technology, and <a href="https://rabbah.io/">Rodric Rabbah</a> at IBM Research.<br>
     <br>
     <i>Trimaran is distributed without charge for non-commercial
     use.</i> 

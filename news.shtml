@@ -22,7 +22,7 @@
       </td>
       <td align=left valign=top>
         <p align=justify>
-        <a href="download.shtml">Trimaran 4.0</a> offering:
+        <a href="download.html">Trimaran 4.0</a> offering:
         <ul>
         <li>Support for multi-cluster architectures. The clusters can be
         organized as either sharing an inter-cluster communication bus or
@@ -55,7 +55,7 @@
       </td>
       <td align=left valign=top>
         <p align=justify>
-        SUIF <a href="download.shtml">add-on frontend</a> to Trimaran. This frontend implements a set of SUIF passes that convert SUIF IR to Trimaran IR (<tt>lcode</tt>). This add-on combines SUIF high level program analysis passes with the Trimaran compiler and its rich collection of machine specific optimizations. Sam Larsen's <a href="http://www.cag.csail.mit.edu/~slarsen/Larsen-PhD.pdf">doctoral</a> works demonstrates the value of combining frontend program analysis and backend machine optimizations in the context of automatic vectorization.
+        SUIF <a href="download.html">add-on frontend</a> to Trimaran. This frontend implements a set of SUIF passes that convert SUIF IR to Trimaran IR (<tt>lcode</tt>). This add-on combines SUIF high level program analysis passes with the Trimaran compiler and its rich collection of machine specific optimizations. Sam Larsen's <a href="http://www.cag.csail.mit.edu/~slarsen/Larsen-PhD.pdf">doctoral</a> works demonstrates the value of combining frontend program analysis and backend machine optimizations in the context of automatic vectorization.
         </p>
     </tr> 
     <tr>
@@ -64,12 +64,12 @@
       </td>
       <td align=left valign=top>
         <p align=justify>
-        New <a href="benchmarks.shtml">benchmark packages</a> are available for <a href="download.shtml">download</a>.
+        New <a href="benchmarks.html">benchmark packages</a> are available for <a href="download.html">download</a>.
         </p>
     </tr>
 
   </table>
 
-<p align=justify>Older news is <a href="archives.shtml">archived</a>.</p>
+<p align=justify>Older news is <a href="archives.html">archived</a>.</p>
 
 <!--#include virtual="footer.inc"-->
