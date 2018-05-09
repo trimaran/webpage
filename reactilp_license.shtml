@@ -1,120 +1,181 @@
-<html>
+<!doctype html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <base href="">
+    <meta charset="utf-8" />
+    <title>Trimaran - ReactILP License</title>
 
-<head>
-    <title>ReaCT-ILP Software License Agreement Notice</title>
-  <link rel="stylesheet" href="style.css" type="text/css">
-</head>
+    <!--#include virtual="header.inc"-->
+  </head>
 
-<!--#include virtual="header.inc"-->
+<!--#include virtual="banner.inc"-->
 
-    <center>
-      <!--img src="images/impact_logo.gif"-->
-      <font size=+3><b>ReaCT-ILP SOFTWARE LICENSE AGREEMENT NOTICE</b></font>
-    </center>
-    <br>
-    <br>
-    <hr align=center>
-    <br>
-    <br>
-    <ul><p align=justify>
-      <b>IT IS A BREACH OF THE LICENSE AGREEMENT TO REMOVE THIS NOTICE
-      FROM THIS FILE OR SOFTWARE OR ANY MODIFIED VERSIONS OF THIS FILE
-      OR SOFTWARE.</b><br>
-    </p>
-    <center>
-      <b>Copyright notices/Licensor(s) Identification</b><br>
-    </center>
-    <br>
-    Each of the entity(ies) whose name properly appear immediately below in
-    connection with a copyright notice is a Licensor(s) under the terms that
-    follow.<br>
-    <br>
-    Copyright &copy; 1998 New York University.<br>
-    All rights reserved by the foregoing, respectively.<br>
-    <br>
-    <hr>
-    <center>
-      <b>Copyright Notices/Identification of Subsequent
-      Licensor(s)/Contributors of Derivative Works</b><br>
-    </center>
-    <br>
-    Copyright &copy; &lt;Year&gt; &lt;Owner&gt;<br>
-    &lt;Optional:  For             commercial            license
-    rights,   contact:____________________________&gt;<br>
-    <br>
-    All rights reserved by the foregoing, respectively.<br>
-    <br>
-    <hr>
-    <p align=justify>
-      The code contained in this file including both binary and source
-      (hereafter, Software) is subject to copyright by Licensor(s) and
-      ownership remains with Licensor(s).<br>
-      <br>
-      Licensor(s) grants  you (hereafter,  Licensee) a license  to use
-      the  Software  for  academic,  research  and  internal  business
-      purposes only, without a fee. "Internal business use" means that
-      Licensee  may install,  use  and execute  the  Software for  the
-      purpose of designing and evaluating products.  Licensee may also
-      disclose results obtained by  executing the Software, as well as
-      algorithms  embodied  therein.    Licensee  may  distribute  the
-      Software to third parties provided that the copyright notice and
-      this  statement appears  on all  copies  and that  no charge  is
-      associated with  such copies.   No patent or  other intellectual
-      property license  is granted or  implied by this  Agreement, and
-      this Agreement does not  license any acts except those expressly
-      recited.<br>
-      <br>
-      Licensee may make derivative works, which shall also be governed
-      by the terms of  this License Agreement. If Licensee distributes
-      any derivative work based on  or derived from the Software, then
-      Licensee will  abide by the following terms.   Both Licensee and
-      Licensor(s) will  be considered joint owners  of such derivative
-      work and considered Licensor(s)  for the purpose of distribution
-      of  such  derivative  work.   Licensee  shall  not  modify  this
-      agreement except that Licensee  shall clearly indicate that this
-      is a derivative work by adding an additional copyright notice in
-      the  form   "Copyright  &lt;year&gt;  &lt;Owner&gt;"   to  other
-      copyright notices above, before the line "All rights reserved by
-      the foregoing,  respectively".  A party  who is not  an original
-      author  of  such  derivative  works  within the  meaning  of  US
-      Copyright Law shall not modify  or add his name to the copyright
-      notices above.<br>
-      <br>
-      Any  Licensee wishing  to make  commercial use  of  the Software
-      should  contact  each  and  every Licensor(s)  to  negotiate  an
-      appropriate license  for such commercial use;  permission of all
-      Licensor(s) will be required  for such a license. Commercial use
-      includes (1) integration of all  or part of the source code into
-      a product  for sale or  license by or  on behalf of  Licensee to
-      third  parties, or  (2) distribution  of the  Software  to third
-      parties that  need it  to utilize a  commercial product  sold or
-      licensed by or on behalf of Licensee.<br>
-      <br>
-      LICENSOR (S)  MAKES NO REPRESENTATIONS ABOUT  THE SUITABILITY OF
-      THIS SOFTWARE FOR  ANY PURPOSE.  IT IS PROVIDED  "AS IS" WITHOUT
-      EXPRESS OR  IMPLIED WARRANTY.  LICENSOR (S) SHALL  NOT BE LIABLE
-      FOR ANY DAMAGES SUFFERED BY THE USERS OF THIS SOFTWARE.<br>
-      <br>
-      IN NO  EVENT UNLESS REQUIRED BY  APPLICABLE LAW OR  AGREED TO IN
-      WRITING WILL  ANY COPYRIGHT HOLDER,  OR ANY OTHER PARTY  WHO MAY
-      MODIFY AND/OR  REDISTRIBUTE THE  PROGRAM AS PERMITTED  ABOVE, BE
-      LIABLE FOR  DAMAGES, INCLUDING ANY  GENERAL, SPECIAL, INCIDENTAL
-      OR CONSEQUENTIAL DAMAGES ARISING OUT  OF THE USE OR INABILITY TO
-      USE THE  PROGRAM (INCLUDING BUT NOT  LIMITED TO LOSS  OF DATA OR
-      DATA  BEING RENDERED INACCURATE  OR LOSSES  SUSTAINED BY  YOU OR
-      THIRD PARTIES  OR A FAILURE OF  THE PROGRAM TO  OPERATE WITH ANY
-      OTHER PROGRAMS),  EVEN IF  SUCH HOLDER OR  OTHER PARTY  HAS BEEN
-      ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.<br>
-      <br>
-      By using or  copying this Software, Licensee agrees  to abide by
-      the copyright law and all other applicable laws of the U.S., and
-      the  terms of  this license  agreement. Any  individual Licensor
-      shall have  the right to  terminate this license  immediately by
-      written  notice  upon Licensee's  breach  of, or  non-compliance
-      with, any of its terms. Licensee may be held legally responsible
-      for any  copyright infringement that is caused  or encouraged by
-      Licensee's  failure  to  abide  by  the terms  of  this  license
-      agreement.<br>
-    </p>
+<main id="page" role="main">
+    <div id="content" class="main-content"
+        data-content-field="main-content"
+        data-collection-id="5af34915758d46bbcf52b972"
+        data-edit-main-image="Banner">
+        <div class="sqs-layout sqs-grid-12 columns-12"
+        data-type="page" data-updated-on="1525893421191"
+        id="page-5af34915758d46bbcf52b972">
+            <div class="row sqs-row">
+                <div class="col sqs-col-12 span-12">
+                    <div class="sqs-block html-block sqs-block-html"
+                         data-block-type="2"
+                         id="block-3864f59fc73303e45a9d">
+                        <div class="sqs-block-content">
+                            <p class="text-align-center"><strong>ReaCT-ILP
+                                SOFTWARE LICENSE AGREEMENT
+                                NOTICE</strong></p>
+                            <p> </p>
+                            <p><strong>IT IS A BREACH OF THE LICENSE
+                                AGREEMENT TO REMOVE THIS NOTICE FROM
+                                THIS FILE OR SOFTWARE OR ANY MODIFIED
+                                VERSIONS OF THIS FILE OR
+                                SOFTWARE.</strong></p>
+                            <p><strong>Copyright notices/Licensor(s)
+                            Identification</strong></p>
+                            <p>Each of the entity(ies) whose name
+                              properly appear immediately below in
+                              connection with a copyright notice is a
+                              Licensor(s) under the terms that follow.
+                                <br />
+                                <br />Copyright (c) 1998 New York
+                              University.
+                                <br />All rights reserved by the
+                              foregoing, respectively.
+                                <br /> </p>
+                            <p><strong>Copyright
+                                Notices/Identification of Subsequent
+                                Licensor(s)/Contributors of Derivative
+                                Works</strong></p>
+                            <p>
+                                <br />Copyright (c) &lt;Year&gt;
+                                &lt;Owner&gt;
+                                <br />&lt;Optional: For commercial
+                                license rights,
+                                contact:____________________________&gt;
+                                <br />
+                                <br />All rights reserved by the
+                                foregoing, respectively.
+                                <br /> </p>
+                            <p>The code contained in this file
+                              including both binary and source
+                              (hereafter, Software) is subject to
+                              copyright by Licensor(s) and ownership
+                              remains with Licensor(s).
+                                <br />
+                                <br />Licensor(s) grants you
+                              (hereafter, Licensee) a license to use
+                              the Software for academic, research and
+                              internal business purposes only, without
+                              a fee. "Internal business use" means
+                              that Licensee may install, use and
+                              execute the Software for the purpose of
+                              designing and evaluating
+                              products. Licensee may also disclose
+                              results obtained by executing the
+                              Software, as well as algorithms embodied
+                              therein. Licensee may distribute the
+                              Software to third parties provided that
+                              the copyright notice and this statement
+                              appears on all copies and that no charge
+                              is associated with such copies. No
+                              patent or other intellectual property
+                              license is granted or implied by this
+                              Agreement, and this Agreement does not
+                              license any acts except those expressly
+                              recited.
+                                <br />
+                                <br />Licensee may make derivative
+                              works, which shall also be governed by
+                              the terms of this License Agreement. If
+                              Licensee distributes any derivative work
+                              based on or derived from the Software,
+                              then Licensee will abide by the
+                              following terms. Both Licensee and
+                              Licensor(s) will be considered joint
+                              owners of such derivative work and
+                              considered Licensor(s) for the purpose
+                              of distribution of such derivative
+                              work. Licensee shall not modify this
+                              agreement except that Licensee shall
+                              clearly indicate that this is a
+                              derivative work by adding an additional
+                              copyright notice in the form "Copyright
+                              &lt;year&gt; &lt;Owner&gt;" to other
+                              copyright notices above, before the line
+                              "All rights reserved by the foregoing,
+                              respectively". A party who is not an
+                              original author of such derivative works
+                              within the meaning of US Copyright Law
+                              shall not modify or add his name to the
+                              copyright notices above.
+                                <br />
+                                <br />Any Licensee wishing to make
+                              commercial use of the Software should
+                              contact each and every Licensor(s) to
+                              negotiate an appropriate license for
+                              such commercial use; permission of all
+                              Licensor(s) will be required for such a
+                              license. Commercial use includes (1)
+                              integration of all or part of the source
+                              code into a product for sale or license
+                              by or on behalf of Licensee to third
+                              parties, or (2) distribution of the
+                              Software to third parties that need it
+                              to utilize a commercial product sold or
+                              licensed by or on behalf of Licensee.
+                                <br />
+                                <br />LICENSOR (S) MAKES NO
+                              REPRESENTATIONS ABOUT THE SUITABILITY OF
+                              THIS SOFTWARE FOR ANY PURPOSE. IT IS
+                              PROVIDED "AS IS" WITHOUT EXPRESS OR
+                              IMPLIED WARRANTY. LICENSOR (S) SHALL NOT
+                              BE LIABLE FOR ANY DAMAGES SUFFERED BY
+                              THE USERS OF THIS SOFTWARE.
+                                <br />
+                                <br />IN NO EVENT UNLESS REQUIRED BY
+                              APPLICABLE LAW OR AGREED TO IN WRITING
+                              WILL ANY COPYRIGHT HOLDER, OR ANY OTHER
+                              PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE
+                              THE PROGRAM AS PERMITTED ABOVE, BE
+                              LIABLE FOR DAMAGES, INCLUDING ANY
+                              GENERAL, SPECIAL, INCIDENTAL OR
+                              CONSEQUENTIAL DAMAGES ARISING OUT OF THE
+                              USE OR INABILITY TO USE THE PROGRAM
+                              (INCLUDING BUT NOT LIMITED TO LOSS OF
+                              DATA OR DATA BEING RENDERED INACCURATE
+                              OR LOSSES SUSTAINED BY YOU OR THIRD
+                              PARTIES OR A FAILURE OF THE PROGRAM TO
+                              OPERATE WITH ANY OTHER PROGRAMS), EVEN
+                              IF SUCH HOLDER OR OTHER PARTY HAS BEEN
+                              ADVISED OF THE POSSIBILITY OF SUCH
+                              DAMAGES.
+                                <br />
+                                <br />By using or copying this
+                              Software, Licensee agrees to abide by
+                              the copyright law and all other
+                              applicable laws of the U.S., and the
+                              terms of this license agreement. Any
+                              individual Licensor shall have the right
+                              to terminate this license immediately by
+                              written notice upon Licensee's breach
+                              of, or non-compliance with, any of its
+                              terms. Licensee may be held legally
+                              responsible for any copyright
+                              infringement that is caused or
+                              encouraged by Licensee's failure to
+                              abide by the terms of this license
+                              agreement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 
-<!--#include virtual="footer.inc"-->
+<!--#Include virtual="footer.inc"-->

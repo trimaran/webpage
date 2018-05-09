@@ -1,42 +1,20 @@
-<body text="#000000">
-  <div id="container">
-  <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
-    <tr>
-    <td background="images/background-left.gif" width="98">&nbsp;</td>
-    <td valign=top>
-      <div id="title">
-      <center><table cellspacing=0 cellpadding=0 border=0><tr><td>
-      <img src="images/trimaran-logo.png" height="100" width="400" align="center"> 
-      </td></tr></table>
-      </center>
-      </div>
-      <div id="menu">
-        <ul id="menu">
-          <li>
-            <a href="index.html">home</a>
-          </li>
-          <li>
-            <a href="news.html"><b>news</b></a>
-          </li>
-          <li>
-            <a href="overview.html">overview</a>
-          </li>
-          <li>
-            <a href="documentation.html"><b>documentation</b></a>
-          </li>
-          <li>
-            <a href="requirements.html">requirements</a>
-          </li>
-         <li>
-            <a href="download.html"><b>download</b></a>
-          </li>
-         <li>
-            <a href="support.html">support</a>
-          </li>
-         <li>
-            <a href="contribute.html">contribute</a>
-         </li>
-       </ul>
-      </div>
-      <br>
-      <div id="main">
+<link rel="shortcut icon" type="image/x-icon" href="https://static.squarespace.com/universal/default-favicon.ico"/>
+<link rel="canonical" href="https://trimaran.org"/>
+<meta property="og:site_name" content="Trimaran"/>
+<meta property="og:title" content="Trimaran"/>
+<meta property="og:url" content="https://trimaran.org"/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="images/trimaran.png"/>
+<meta property="og:image:width" content="1000"/>
+<meta property="og:image:height" content="1019"/>
+<meta itemprop="name" content="Trimaran"/>
+<meta itemprop="url" content="https://trimaran.org"/>
+<meta itemprop="thumbnailUrl" content="images/trimaran.png"/>
+<meta name="twitter:title" content="Trimaran"/>
+<meta name="twitter:image" content="images/trimaran.org"/>
+<meta name="twitter:url" content="https://trimaran.org"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="description" content="" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:400,700,700i,400i"/>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+

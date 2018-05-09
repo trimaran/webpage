@@ -1,139 +1,134 @@
-<html>
+<!doctype html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <base href="">
+    <meta charset="utf-8" />
+    <title>Trimaran</title>
 
-<head>
-  <meta name="google-site-verification" content="I0rf4gjBzpzHVAquhkHhN0WGIcKjP6LD-EsasTsfdT4" />
-  <title>Trimaran Homepage</title>
- 
-  <script language="JavaScript">
-  <!-- hide
-    // Cookie functions (getCookieVal, GetCookie, SetCookie) were written by:
-    //  Bill Dortch, hIdaho Design <bdortch@hidaho.com>
+    <!--#include virtual="header.inc"-->
+  </head>
 
-    function getCookieVal (offset) {
-      var endstr = document.cookie.indexOf (";", offset);
-      if (endstr == -1)
-        endstr = document.cookie.length;
-      return unescape(document.cookie.substring(offset, endstr));
-    }
-
-    function GetCookie (name) {
-      var arg = name + "=";
-      var alen = arg.length;
-      var clen = document.cookie.length;
-      var i = 0;
-      while (i < clen) {
-        var j = i + alen;
-        if (document.cookie.substring(i, j) == arg)
-          return getCookieVal (j);
-        i = document.cookie.indexOf(" ", i) + 1;
-        if (i == 0) break; 
-      }
-      return null;
-    }
-
-    function SetCookie (name,value,expires,path,domain,secure) {
-      document.cookie = name + "=" + escape (value) +
-        ((expires) ? "; expires=" + expires.toGMTString() : "") +
-        ((path) ? "; path=" + path : "") +
-        ((domain) ? "; domain=" + domain : "") +
-        ((secure) ? "; secure" : "");
-    }
-
-    function openWin3() {
-      if ( GetCookie("DidOpenWin") == null) {
-        myWin= open("", "displayWindow", "width=270,height=285,resizable=yes,status=yes,toolbar=yes,menubar=yes,scrollbars=yes"); 
-        // open document for further output
-        myWin.document.open();
-        // create document
-        // myWin.document.write("");
-        // close the document - (not the window!)
-        myWin.document.close();
-      }
-      SetCookie ("DidOpenWin", "True", null, null, null, false); 
-    }
-  // -->
-  </script>
-  <link rel="stylesheet" href="style.css" type="text/css">
-</head>
-
-<!--#include virtual="header.inc"-->
-
-  <center>
-    <font size=+3><b>An Infrastructure for Research in<br>
-    Backend Compilation and Architecture Exploration</b></font>
-  </center>
-  <hr align=center>
-  <p align=justify>
-    Trimaran is an integrated compilation and performance monitoring
-    infrastructure.  The architecture space that Trimaran covers is
-    characterized by <a href="documentation.html">HPL-PD</a>, a parameterized
-    processor architecture supporting novel features such as predication,
-    control and data speculation and compiler controlled management of the
-    memory hierarchy.  Trimaran also consists of a full suite of analysis and
-    optimization modules, as well as a graph-based intermediate language.
-    Optimizations and analysis modules can be easily added, deleted or bypassed,
-    thus facilitating compiler optimization research. Similarly, computer
-    architecture research can be conducted by varying the HPL-PD machine via the
-    machine description language HMDES.  Trimaran also provides a detailed
-    simulation environment and a flexible performance monitoring environment
-    that automatically tracks the machine as it is varied. Trimaran is
-    intended for researchers and educators interested in the following
-    topics:<br>
-
-  <center>
-  <table cellspacing=0 cellpadding=0 border=0>
-  <tr>
-    <td width=400><b><u>Compiler Technology</u></b></td>
-    <td width=10>&nbsp;</td>
-    <td width=400><b><u>Computer Architecture</u></b></td>
-  </tr>
-  <tr valign=top>
-    <td>
-      <li>Instruction-Level Parallelism (ILP)</li>
-      <li>Compiler Optimizations</li>
-      <li>Code Generation Technology</li>
-      <li>Instruction Set Customization</li>
-      <li>Retargetable Compilation</li>
-    </td>
-    <td width=10>&nbsp;</td>
-    <td>
-      <li>High-Performance Embedded Processors</li>
-      <li>Application Specific Processors</li>
-      <li>Very Long Instruction Word Processors (VLIW)</li>
-      <li>Explicitly Parallel Instruction Computing (EPIC)</li>
-      <li>Design Space Exploration</li>
-    </td>
-  </tr>
-  </table>
-  </center>
-
-  <hr>
-  <hr>
-  <b><font color=red>Latest news:</font></b><ul>
-    <li>Trimaran 4.0 is now available for <a href="download.html">download</a>.</li>
-    <li>A SUIF add-on frontend is also now available for <a href="download.html">download</a>.</li>
-    <li>New <a href="benchmarks.html">benchmark packages</a> are available for <a href="download.html">download</a>.</li>
-  </ul>
-  <hr><hr>
-
-  <p align=justify> 
-    Trimaran began as a collaborative effort between the <a href="car_group.html">Compiler and
-    Architecture Research (CAR) Group</a> (once a member of Hewlett
-    Packard Laboratories), the <a href="impact_group.html">IMPACT
-    Group</a> at the University of Illinois, and the ReaCT-ILP
-    Laboratory at New York University (now known as <a
-    href="http://crest.gatech.edu">CREST</a>, the Center for Research
-    on Embedded Systems and Technology</a> at the Georgia Institute of
-    Technology).  During the past few years, Trimaran was actively developed and
-    maintained by the <a href="http://cccp.eecs.umich.edu">CCCP
-    Group</a> at the University of Michigan, and the <a
-    href="http://groups.csail.mit.edu/commit/">Commit Group</a> at
-    MIT. Today's active contributors are the <a href="http://cccp.eecs.umich.edu">CCCP group</a>, <a href="http://www.cc.gatech.edu/~ntclark/">Prof. Nathan Clark</a> at the Georgia Institute of Technology, and <a href="https://rabbah.io/">Rodric Rabbah</a> at IBM Research.<br>
-    <br>
-    <i>Trimaran is distributed without charge for non-commercial
-    use.</i> 
-  </p>
+<!--#include virtual="banner.inc"-->
+<main id="page" role="main">
+    <div id="content" class="main-content"
+        data-content-field="main-content"
+        data-collection-id="5af2447aaa4a99ed9ecba221"
+        data-edit-main-image="Banner">
+        <div class="sqs-layout sqs-grid-12 columns-12"
+        data-type="page" data-updated-on="1525895766355"
+        id="page-5af2447aaa4a99ed9ecba221">
+            <div class="row sqs-row">
+                <div class="col sqs-col-12 span-12">
+                    <div class="sqs-block html-block sqs-block-html"
+                    data-block-type="2"
+                    id="block-20d2d7d07ef691626788">
+                        <div class="sqs-block-content">
+                            <p>Trimaran is an integrated VLIW compiler
+                            and simulator. The architecture space that
+                            Trimaran covers is characterized
+                            by <a href="documentation.html">HPL-PD</a>,
+                            a parameterized processor architecture
+                            supporting predication, control and data
+                            speculation and compiler controlled
+                            management of the memory
+                            hierarchy. Trimaran includes a full suite
+                            of analysis and optimization modules, as
+                            well as a graph-based intermediate
+                            language. Optimizations and analysis
+                            modules can be easily added, deleted or
+                            bypassed, thus facilitating compiler
+                            optimization research. Similarly, computer
+                            architecture research can be conducted by
+                            varying the HPL-PD machine via the machine
+                            description language HMDES. Trimaran
+                            provides a detailed simulation environment
+                            and a flexible performance monitoring
+                            environment that automatically tracks the
+                            machine as it is varied. Trimaran is
+                            intended for researchers and educators
+                            interested in the following topics:</p>
+                        </div>
+                    </div>
+                    <div class="row sqs-row">
+                        <div class="col sqs-col-6 span-6">
+                            <div class="sqs-block html-block
+                            sqs-block-html" data-block-type="2"
+                            id="block-24be46477b8e1e6d0e9e">
+                                <div class="sqs-block-content">
+                                    <h2>Compiler technology</h2>
+                                    <ul>
+                                        <li>Instruction-Level
+                                        Parallelism (ILP)</li>
+                                        <li>Compiler
+                                        Optimizations</li>
+                                        <li>Code Generation
+                                        Technology</li>
+                                        <li>Instruction Set
+                                        Customization</li>
+                                        <li>Retargetable
+                                        Compilation</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col sqs-col-6 span-6">
+                            <div class="sqs-block html-block
+                            sqs-block-html" data-block-type="2"
+                            id="block-701d3c3b3cc7ba704561">
+                                <div class="sqs-block-content">
+                                    <h2>Computer Architecture</h2>
+                                    <ul>
+                                        <li>High-Performance Embedded
+                                        Processors</li>
+                                        <li>Application Specific
+                                        Processors</li>
+                                        <li>Very Long Instruction Word
+                                        Processors (VLIW)</li>
+                                        <li>Explicitly Parallel
+                                        Instruction Computing
+                                        (EPIC)</li>
+                                        <li>Design Space
+                                        Exploration</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sqs-block html-block sqs-block-html"
+                    data-block-type="2"
+                    id="block-yui_3_17_2_1_1525826995822_30521">
+                        <div class="sqs-block-content">
+                            <p>Trimaran is distributed without charge
+                            for non-commercial use.</p>
+                            <p>Trimaran was a collaborative effort in
+                            the 1990s between
+                            the <a href="http://contributors.html">Compiler
+                            and Architecture Research (CAR) Group</a>
+                            (once a member of Hewlett Packard
+                            Laboratories),
+                            the <a href="http://contributors.html">IMPACT
+                            Group</a> at the University of Illinois,
+                            and the ReaCT-ILP Laboratory at New York
+                            University
+                            (later <a href="http://contributors.html">CREST</a>,
+                            the Center for Research on Embedded
+                            Systems and Technology at the Georgia
+                            Institute of Technology). Trimaran
+                            was&nbsp; subsequently actively developed
+                            and maintained by
+                            the <a href="http://cccp.eecs.umich.edu">CCCP
+                            Group</a> at the University of Michigan,
+                            and
+                            the <a href="http://groups.csail.mit.edu/commit/">Commit
+                            Group</a> at MIT.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 
 <!--#include virtual="footer.inc"-->
-
- 

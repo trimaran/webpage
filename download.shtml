@@ -1,64 +1,232 @@
-<html>
+<!doctype html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <base href="">
+    <meta charset="utf-8" />
+    <title>Trimaran - Download</title>
 
-<head>
-  <title>Trimaran Software Download</title>
-  <link rel="stylesheet" href="style.css" type="text/css">
-</head>
+    <!--#include virtual="header.inc"-->
+  </head>
 
-<!--#include virtual="header.inc"-->
+<!--#include virtual="banner.inc"-->
 
-  <p align="right">
-    <font size=+3><b>Download</b></font><br>
-    <hr>
-  </p>
-  <p align="justify">
-  <table>
-    <tr>
-      <td valign=top><b>Trimaran</b></td><td width=15></td>
-       <td align="justify">
-	  A public release of Trimaran is available for download. You may
-          <b><a href="register.html">register and download</a></b> the
-	  full source package. 
-	  <ul>
-            <li><p align=justify>
-              Review the list of <a  href="requirements.html">software
-              requirements</a> before downloading Trimaran.
-            </li>
-            <li><p align=justify>
-               Read the <a href="documentation.html">Trimaran manual</a>
-	       for installation instructions as well instructions on how to
-	       use and develop in Trimaran.
-	     </li>
-             <li><p align=justify>
-                For technical assistance and support, you may <a
-                href="support.html">contact</a> the Trimaran support team.
-            </li>
-          </ul>
-        </td>
-    </tr>
-    <tr>
-      <td valign=top><b>SUIF add-on<br>Frontend</b></td><td width=15></td>
-      <td align="justify">
-        It is now possible to use the 
-        <a href=" http://suif.stanford.edu">SUIF</a> compiler and
-	its rich collection of high level program analysis passes
-	with the Trimaran compiler and its rich collection of
-	machine specific optimizations.
+<main id="page" role="main">
+    <div id="content" class="main-content"
+        data-content-field="main-content"
+        data-collection-id="5af32c29352f5311f126600a"
+        data-edit-main-image="Banner">
+        <div class="sqs-layout sqs-grid-12 columns-12"
+        data-type="page" data-updated-on="1525887460850"
+        id="page-5af32c29352f5311f126600a">
+            <div class="row sqs-row">
+                <div class="col sqs-col-3 span-3">
+                    <div class="sqs-block html-block sqs-block-html"
+                    data-block-type="2"
+                    id="block-e4a743722e1fda7bc96d">
+                        <div class="sqs-block-content">
+                            <h2>TRIMARAN</h2></div>
+                    </div>
+                </div>
+                <div class="col sqs-col-9 span-9">
+                    <div class="sqs-block html-block sqs-block-html"
+                    data-block-type="2"
+                    id="block-dd6d4bb54216d49ee9a5">
+                        <div class="sqs-block-content">
+                            <p>This Trimaran release has been
+                            extensively tested using Fedora Core 3, 4
+                            and 5 on x86 Linux, as well as Redhat
+                            Enterprise Linux 4 running on
+                            x86-64. Users working with other operating
+                            systems may experience some obstacles in
+                            the installation process.</p>
+                            <p><strong>Software
+                            Requirements:</strong></p>
+                            <ul>
+                                <li><strong>gcc</strong> (tested
+                                extensively with version 4.0.1, but
+                                3.2 and 3.4.4 should also work)</li>
+                                <li><strong>autoconf</strong> version
+                                2.54</li>
+                                <li><strong>automake</strong> version
+                                1.7</li>
+                            </ul>
+                            <p><strong>Optional Software:</strong></p>
+                            <ul>
+                                <li><strong>dot</strong> - Graph
+                                visualization tool used by the
+                                back-end
+                                (<a href="http://www.research.att.com/sw/tools/graphviz/">download</a>)</li>
+                            </ul>
 
-	You may <b><a href="register.html">register and
-	download</a></b> our SUIF distribution and the SUIF to
-	Trimaran compiler. Our SUIF distrubution features bug fixes
-	and several enhancements to SUIF version 1.3.0.5.<br><br>
-      </td>
-    </tr>
-    <tr>
-      <td valign=top><b>Benchmarks</b></td><td width=15></td>
-      <td align="justify">
-          You may also download
-          <a href="benchmarks.html">benchmark packages</a>
-          for Trimaran.
-      </td>
-    </tr>
-  </table>
+                            <p><strong><em>Notice: Clicking on the "Download" links below indicates
+                                your acceptance of the terms of the
+                                distributors notice as well as the
+                                license agreements and copyright
+                                notices below. <a href="license.html">The notice and license agreements are
+                                available here</a> for review.</em></strong></p>
+
+                            <p><strong>Download:</strong></p>
+                            <ul>
+                                <li>Trimaran
+                                4.0:<a href="http://www.trimaran.org/cgi-bin/download.pl?trimaran_4_0.tar.gz">
+                                trimaran_4_0.tar.gz</a> (13MB)</li>
+                                <li>Trimaran
+                                3.7: <a href="http://www.trimaran.org/cgi-bin/download.pl?trimaran_3_7.tar.gz">trimaran_3_7.tar.gz</a>
+                                (8.1MB)</li>
+                                <li>Trimaran
+                                3.1: <a href="http://www.trimaran.org/cgi-bin/download.pl?trimaran_3_1.tar.gz">trimaran_3_1.tar.gz</a>
+                                (7.4MB)</li>
+                                <li>Trimaran
+                                2.1: <a href="http://www.trimaran.org/cgi-bin/download.pl?trimaran_2_1.tar.gz">trimaran_2_1.tar.gz</a>
+                                (7.9MB) Trimaran 2.0 with an ARM code
+                                generator.</li>
+                                <li>Trimaran
+                                2.0: <a href="http://www.trimaran.org/cgi-bin/download.pl?trimaran_2_0.tar.gz">trimaran_2_0.tar.gz</a>
+                                (7.3MB)</li>
+                                <li>Trimaran
+                                1.0: <a href="http://www.trimaran.org/cgi-bin/download.pl?trimaran_1_0.tar.gz">trimaran_1_0.tar.gz</a>
+                                (9.9MB)</li>
+                            </ul>
+
+                            <p>Read
+                            the <a href="http://www.trimaran.org/documentation.shtml">Trimaran
+                            manual</a> for installation instructions
+                            as well instructions on how to use and
+                            develop in Trimaran.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row sqs-row">
+                <div class="col sqs-col-12 span-12">
+                    <div class="sqs-block horizontalrule-block
+                    sqs-block-horizontalrule" data-block-type="47"
+                    id="block-a7d179145fe98c6bfc2b">
+                        <div class="sqs-block-content">
+                            <hr />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row sqs-row">
+                <div class="col sqs-col-3 span-3">
+                    <div class="sqs-block html-block sqs-block-html"
+                    data-block-type="2"
+                    id="block-dfde4644c2d8e0198040">
+                        <div class="sqs-block-content">
+                            <h2>SUIF ADD-ON</h2></div>
+                    </div>
+                </div>
+                <div class="col sqs-col-9 span-9">
+                    <div class="sqs-block html-block sqs-block-html"
+                    data-block-type="2"
+                    id="block-4d509ad73c2cad806bec">
+                        <div class="sqs-block-content">
+                            <p>The <a href="http://suif.stanford.edu">SUIF</a>
+                            compiler and its rich collection of high
+                            level program analysis passes works with
+                            the Trimaran compiler and its rich
+                            collection of machine specific
+                            optimizations.</p>
+                            <p>This SUIF release offers new features
+                            and improved robustness for compilation
+                            with newer versions of GCC (3.2.3, 3.4.6,
+                            and 4.0.3). The primary enhancement is the
+                            support for the restrict keyword. Our SUIF
+                            distribution features bug fixes and
+                            several enhancements to SUIF version
+                            1.3.0.5.</p>
+                            <p><strong>Download:</strong></p>
+                            <ul dir="ltr">
+                                <li>SUIF
+                                1.3.0.5: <a href="http://www.trimaran.org/cgi-bin/download.pl?suif-1.3.0.5-trimaran.tar.gz">suif-1.3.0.5-trimaran.tar.gz </a>(3.0MB)</li>
+                                <li>SUIF IR to Trimaran IR (lcode)
+                                compiler: <a href="http://www.trimaran.org/cgi-bin/download.pl?s2lc.tar.gz">s2lc.tar.gz</a>
+                                (44KB )</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row sqs-row">
+                <div class="col sqs-col-3 span-3">
+                    <div class="sqs-block html-block sqs-block-html"
+                    data-block-type="2"
+                    id="block-dfde4644c2d8e0198040">
+                        <div class="sqs-block-content">
+                            <h2>BENCHMARKS</h2></div>
+                    </div>
+                </div>
+                <div class="col sqs-col-9 span-9">
+                    <div class="sqs-block html-block sqs-block-html"
+                    data-block-type="2"
+                    id="block-4d509ad73c2cad806bec">
+                        <div class="sqs-block-content">
+                            Trimaran is
+                            distributed with a number of small
+                            benchmark packages that are ready for
+                            use. Additional benchmark packages are
+                            available for download. A
+                            Trimaran <em>benchmark package</em>
+                            contains the following:</p>
+                            <ul>
+                                <li><strong>compile_info </strong>and <strong>compile_parms</strong>
+                                files that describe the options to use
+                                while preprocessing, compiling, and
+                                linking the benchmark.&nbsp;</li>
+                                <li><strong>exec_info_(input_name)</strong>
+                                file for each input workload used to
+                                execute a benchmark. It describes how
+                                to run and verify the benchmark for
+                                that particular input.</li>
+                                <li><strong>input</strong>
+                                and <strong>output</strong>
+                                directories that contains any input
+                                files required to execute a particular
+                                benchmark, and the corresponding
+                                output (expected result). These
+                                directories are used by the<strong>
+                                exec_info_(input_name)</strong> files
+                                to run and verify a benchmark.</li>
+                                <li><strong>src</strong> directory
+                                containing all of the benchmark source
+                                files in a flat directory
+                                structure.</li>
+                            </ul>
+                            <p>The following
+                            benchmarks packages are available for
+                            download. However, for copyright reasons,
+                            some packages do not contain the benchmark
+                            source code. Each SPEC package however
+                            includes a script to automate the copying
+                            of SPEC sources from your repository to
+                            the Trimaran benchmark package
+                            directories. See
+                            the <strong>README</strong> file in each
+                            of the downloaded files files for
+                            details.</p>
+                            <ul>
+                                <li>SPEC
+                                INT 2K</li>
+                                <li>SPEC
+                                INT 95</li>
+                                <li>SPEC
+                                INT 92</li>
+                                <li>MEDIABENCH</li>
+                                <li>OLDEN</li>
+                                <li>MiBench</li>
+                                <li>NetBench</li>
+                                <li>Encryption</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 
 <!--#include virtual="footer.inc"-->

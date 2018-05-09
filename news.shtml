@@ -1,71 +1,205 @@
-<html>
+<!doctype html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <base href="">
+    <meta charset="utf-8" />
+    <title>Trimaran - News</title>
 
-<head>
-  <title>Trimaran News</title>
-  <link rel="stylesheet" href="style.css" type="text/css">
-</head>
+    <!--#include virtual="header.inc"-->
+  </head>
 
-<!--#include virtual="header.inc"-->
+<!--#include virtual="banner.inc"-->
 
-  <p align="right">
-    <font size=+3><b>News</b></font><br>
-    <hr>
-  </p>
-  <table width=95% cellspacing=10 cellpadding=0 border=0>
-    <tr>
-      <td align=left valign=top>
-        <b>12/16/2007</b>
-      </td>
-      <td align=left valign=top>
-        <p align=justify>
-        <a href="download.html">Trimaran 4.0</a> offering:
-        <ul>
-        <li>Support for multi-cluster architectures. The clusters can be
-        organized as either sharing an inter-cluster communication bus or
-        a mesh point-to-point operand network.</li>
-        <li>Support for application-specific instruction-set extensions.</li>
-        <li>Support for automatic vectorization <!--(<a href="http://people.csail.mit.edu/slarsen/Larsen-MICRO38.pdf">paper</a>, <a href="http://people.csail.mit.edu/slarsen/Larsen-PhD.pdf">thesis</a>)-->.</li>
-        <li>Support for Fortran applications via a SUIF to Trimaran
-          translator.</li>
-        <li>Advanced simulation of the memory system using the <a href="http://m5.eecs.umich.edu/">M5 simulator</a>.</li>
-        <li>Code generation infrastructure to handle ISAs with arbitrary literal
-        bit-width constraints.</li>
-        <li>Code generation for the ARM ISA.</li>
-        <li>New datatype attribute associated with every operand to describe
-        the data type (integer/float/predicate), whether the operand is signed
-        or unsigned, and the operand bit-width. </li> 
-        <li>Support for the <tt>long long</tt> datatype.</li>
-        <li>Register allocation has been 
-        completely rewritten and many optimizations have been added to the
-        default path.</li>
-        <li>Significantly improved code quality.</li>
-        <li>Lots of bug fixes.</li>
-        <li>A new comprehensive <a href="docs/trimaran4_manual.pdf">manual</a>.
-        </ul>
-        </p>
-      </td>
-    </tr> 
-    <tr>
-      <td align=left valign=top>
-        <b>12/16/2007</b>
-      </td>
-      <td align=left valign=top>
-        <p align=justify>
-        SUIF <a href="download.html">add-on frontend</a> to Trimaran. This frontend implements a set of SUIF passes that convert SUIF IR to Trimaran IR (<tt>lcode</tt>). This add-on combines SUIF high level program analysis passes with the Trimaran compiler and its rich collection of machine specific optimizations. Sam Larsen's <a href="http://www.cag.csail.mit.edu/~slarsen/Larsen-PhD.pdf">doctoral</a> works demonstrates the value of combining frontend program analysis and backend machine optimizations in the context of automatic vectorization.
-        </p>
-    </tr> 
-    <tr>
-      <td align=left valign=top>
-        <b>12/16/2007</b>
-      </td>
-      <td align=left valign=top>
-        <p align=justify>
-        New <a href="benchmarks.html">benchmark packages</a> are available for <a href="download.html">download</a>.
-        </p>
-    </tr>
-
-  </table>
-
-<p align=justify>Older news is <a href="archives.html">archived</a>.</p>
+      <main id="page" role="main">
+        
+        <!--
+        --><!--
+        --><!--
+        --><div id="content" class="main-content"
+        data-content-field="main-content"
+        data-collection-id="5af3255703ce640222cd4b0d"
+        data-edit-main-image="Banner">
+         <div class="sqs-layout sqs-grid-12 columns-12"
+        data-type="page" data-updated-on="1525885746853"
+        id="page-5af3255703ce640222cd4b0d"><div class="row
+        sqs-row"><div class="col sqs-col-3
+        span-3"><div class="sqs-block html-block sqs-block-html"
+        data-block-type="2"
+        id="block-a687411135dc54b53556"><div class="sqs-block-content"><h2><strong>12/16/2007</strong>
+        Trimaran 4.0</h2></div></div></div><div class="col sqs-col-9
+        span-9"><div class="sqs-block html-block sqs-block-html"
+        data-block-type="2"
+        id="block-c795d6958a0ce7a40f1c"><div class="sqs-block-content"><p>The
+        latest release features:</p><ul><li>Support for multi-cluster
+        architectures. The clusters can be organized as either sharing
+        an inter-cluster communication bus or a mesh point-to-point
+        operand network.</li><li>Support for application-specific
+        instruction-set extensions.</li><li>Support for automatic
+        vectorization .</li><li>Support for Fortran applications via a
+        SUIF to Trimaran translator.</li><li>Advanced simulation of
+        the memory system using
+        the <a href="http://m5.eecs.umich.edu/">M5
+        simulator</a>.</li><li>Code generation infrastructure to
+        handle ISAs with arbitrary literal bit-width
+        constraints.</li><li>Code generation for the ARM
+        ISA.</li><li>New datatype attribute associated with every
+        operand to describe the data type (integer/float/predicate),
+        whether the operand is signed or unsigned, and the operand
+        bit-width.</li><li>Support for the long long
+        datatype.</li><li>Register allocation has been completely
+        rewritten and many optimizations have been added to the
+        default path.</li><li>Significantly improved code
+        quality.</li><li>Lots of bug fixes.</li><li>A new
+        comprehensive <a href="http://www.trimaran.org/docs/trimaran4_manual.pdf">manual</a>.</li></ul></div></div></div></div><div class="row
+        sqs-row"><div class="col sqs-col-12
+        span-12"><div class="sqs-block horizontalrule-block
+        sqs-block-horizontalrule" data-block-type="47"
+        id="block-631d6c6ec7935bb1639d"><div class="sqs-block-content"><hr /></div></div></div></div><div class="row
+        sqs-row"><div class="col sqs-col-3
+        span-3"><div class="sqs-block html-block sqs-block-html"
+        data-block-type="2"
+        id="block-5086c9ac5ec654c4696f"><div class="sqs-block-content"><h2><strong>12/16/2007</strong><br />SUIF
+        ADD-ON</h2></div></div></div><div class="col sqs-col-9
+        span-9"><div class="sqs-block html-block sqs-block-html"
+        data-block-type="2"
+        id="block-e7348d93ad9c70df0a34"><div class="sqs-block-content"><p>This
+        frontend implements a set of SUIF passes that convert SUIF IR
+        to Trimaran IR (lcode). This add-on combines SUIF high level
+        program analysis passes with the Trimaran compiler and its
+        rich collection of machine specific optimizations. Sam
+        Larsen's <a href="http://www.cag.csail.mit.edu/~slarsen/Larsen-PhD.pdf">doctoral</a>
+        works demonstrates the value of combining frontend program
+        analysis and backend machine optimizations in the context of
+        automatic
+        vectorization.</p></div></div></div></div><div class="row
+        sqs-row"><div class="col sqs-col-12
+        span-12"><div class="sqs-block horizontalrule-block
+        sqs-block-horizontalrule" data-block-type="47"
+        id="block-yui_3_17_2_1_1525884529759_9538"><div class="sqs-block-content"><hr /></div></div><div class="sqs-block
+        html-block sqs-block-html sqs-col-3 span-3 float float-left"
+        data-block-type="2"
+        id="block-yui_3_17_2_1_1525884529759_11166"><div class="sqs-block-content"><h2><strong>12/16/2007</strong><br />Benchmarks</h2></div></div><div class="sqs-block
+        html-block sqs-block-html" data-block-type="2"
+        id="block-yui_3_17_2_1_1525884529759_10088"><div class="sqs-block-content"><p>New
+        <a href="http://www.trimaran.org/benchmarks.shtml">benchmark
+          packages</a> are available
+          for <a href="http://www.trimaran.org/download.shtml">download</a>.</p></div></div><div class="sqs-block
+          horizontalrule-block sqs-block-horizontalrule"
+          data-block-type="47"
+          id="block-yui_3_17_2_1_1525884529759_30100"><div class="sqs-block-content"><hr /></div></div></div></div><div class="row
+          sqs-row"><div class="col sqs-col-3
+          span-3"><div class="sqs-block html-block sqs-block-html"
+          data-block-type="2"
+          id="block-a0e7da1d37063d9cc2d8"><div class="sqs-block-content"><h2><strong>6/1/2005</strong><br />Trimaran
+          3.7</h2></div></div></div><div class="col sqs-col-9
+          span-9"><div class="sqs-block html-block sqs-block-html"
+          data-block-type="2"
+          id="block-ec2eb3be2fd55ba86fa5"><div class="sqs-block-content"><p>We
+          are making available a snapshot release of Trimaran (v.3.7)
+          that includes more accurate tracking of the memory system
+          performance. This release is being made available due to
+          popular demand.<br /><br />There are various other features
+          that were added (and bugs fixes) but not documented
+          here. This release does pass our regression test suite and
+          is fairly stable. Please report any problems directly to the
+          <a href="http://www.trimaran.org/support.shtml">support
+            team</a>. A new Trimaran distribution will also be made
+            available soon which will include support for clustered
+            architectures.<br /><br />Note that as with all memory
+            simulations, there are various details that are hard to
+            simulate and you should understand the simulation
+            infrastructure before reporting numbers for publications
+            when memory simulation is enabled. The current
+            distribution also includes the cache simulation interface
+            from <a href="http://www.simplescalar.com">SimpleScalar</a>
+            for those who wish to use it (this interface is activated
+            via a compile time flag in the
+            trimaran/simu/src/emulib/Makefile).<br /><br />This
+            snapshot release also includes more statistics tracking
+            and a new format of the simulator output files. Note
+            however that this new output is not compatible with the
+            GUI visualization
+            tools.</p></div></div></div></div><div class="row
+            sqs-row"><div class="col sqs-col-12
+            span-12"><div class="sqs-block horizontalrule-block
+            sqs-block-horizontalrule" data-block-type="47"
+            id="block-f27d98de9e26d4e92bc8"><div class="sqs-block-content"><hr /></div></div><div class="sqs-block
+            html-block sqs-block-html sqs-col-3 span-3 float
+            float-left" data-block-type="2"
+            id="block-yui_3_17_2_1_1525884529759_34873"><div class="sqs-block-content"><h2><strong>4/11/2005</strong><br />MAILING
+            LIST</h2></div></div><div class="sqs-block html-block
+            sqs-block-html" data-block-type="2"
+            id="block-yui_3_17_2_1_1525884529759_32185"><div class="sqs-block-content"><p>You
+            can reach other researchers that are using Trimaran by
+            writing to trimaran-users at trimaran.org. <strong>Note: the mailing list is no longer live.</strong>.</p></div></div><div class="sqs-block
+            horizontalrule-block sqs-block-horizontalrule"
+            data-block-type="47"
+            id="block-yui_3_17_2_1_1525884529759_31614"><div class="sqs-block-content"><hr /></div></div><div class="sqs-block
+            html-block sqs-block-html sqs-col-3 span-3 float
+            float-left" data-block-type="2"
+            id="block-yui_3_17_2_1_1525884529759_93749"><div class="sqs-block-content"><h2><strong>3/20/2004</strong></h2></div></div><div class="sqs-block
+            html-block sqs-block-html" data-block-type="2"
+            id="block-yui_3_17_2_1_1525884529759_40322"><div class="sqs-block-content"><p>The
+            latest version of Trimaran (v.3.1.b) is compatible with
+            GCC 3.3.x.</p></div></div><div class="sqs-block
+            horizontalrule-block sqs-block-horizontalrule"
+            data-block-type="47"
+            id="block-yui_3_17_2_1_1525884529759_39754"><div class="sqs-block-content"><hr /></div></div><div class="sqs-block
+            html-block sqs-block-html sqs-col-9 span-9 float
+            float-right" data-block-type="2"
+            id="block-yui_3_17_2_1_1525884529759_66719"><div class="sqs-block-content"><p>The
+            latest version of Trimaran (v.3.0.b) includes an interface
+            to
+            the <a href="http://www.cs.wisc.edu/~markhill/DineroIV/">
+            Dinero IV</a> cache simulator. It also includes a fast new
+            simulation environment, and it is compatible with GCC
+            3.1.x.</p></div></div><div class="sqs-block html-block
+            sqs-block-html" data-block-type="2"
+            id="block-yui_3_17_2_1_1525884529759_100103"><div class="sqs-block-content"><h2><strong>12/15/2002</strong><br />DINERO
+            CACHE</h2></div></div><div class="sqs-block
+            horizontalrule-block sqs-block-horizontalrule"
+            data-block-type="47"
+            id="block-yui_3_17_2_1_1525884529759_65502"><div class="sqs-block-content"><hr /></div></div><div class="sqs-block
+            html-block sqs-block-html sqs-col-3 span-3 float
+            float-left" data-block-type="2"
+            id="block-yui_3_17_2_1_1525884529759_68996"><div class="sqs-block-content"><h2><strong>7/4/2001</strong><br />TRICEPS</h2></div></div><div class="sqs-block
+            html-block sqs-block-html" data-block-type="2"
+            id="block-yui_3_17_2_1_1525884529759_105337"><div class="sqs-block-content"><p>Triceps
+            is an ARM Code Generator now packaged with Trimaran. This
+            a beta release version and incremental updates will be
+            released as they become
+            available.</p></div></div><div class="sqs-block
+            horizontalrule-block sqs-block-horizontalrule"
+            data-block-type="47"
+            id="block-yui_3_17_2_1_1525884529759_70404"><div class="sqs-block-content"><hr /></div></div><div class="sqs-block
+            html-block sqs-block-html sqs-col-9 span-9 float
+            float-right" data-block-type="2"
+            id="block-yui_3_17_2_1_1525884529759_70972"><div class="sqs-block-content"><p><a href="docs/hpl-pd.pdf">HPL-PD
+            Architecture Specification-Version 1.1</a> is now
+            available.</p></div></div><div class="sqs-block html-block
+            sqs-block-html" data-block-type="2"
+            id="block-yui_3_17_2_1_1525884529759_117713"><div class="sqs-block-content"><h2><strong>3/14/2000</strong><br />HPL-PD
+            SPEC</h2></div></div><div class="sqs-block
+            horizontalrule-block sqs-block-horizontalrule"
+            data-block-type="47"
+            id="block-yui_3_17_2_1_1525884529759_72380"><div class="sqs-block-content"><hr /></div></div><div class="row
+            sqs-row"><div class="col sqs-col-3
+            span-3"><div class="sqs-block html-block sqs-block-html"
+            data-block-type="2"
+            id="block-yui_3_17_2_1_1525884529759_125194"><div class="sqs-block-content"><h2><strong>7/19/1999</strong><br />TRIMARAN
+            2.0</h2></div></div></div><div class="col sqs-col-9
+            span-9"><div class="sqs-block html-block sqs-block-html"
+            data-block-type="2"
+            id="block-yui_3_17_2_1_1525884529759_72999"><div class="sqs-block-content"><p>Trimaran
+            2.0 is now available. It supports all of the SPEC CINT95
+            benchmarks as well as a variety of SPEC CPU92 benchmarks,
+            digital and mediabench
+            applications.</p></div></div></div></div></div></div></div>
+        </div><!--
+        -->
+        
+      </main>
 
 <!--#include virtual="footer.inc"-->

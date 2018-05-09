@@ -1,0 +1,182 @@
+<!doctype html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <base href="">
+    <meta charset="utf-8" />
+    <title>Trimaran - Contributors</title>
+
+    <!--#include virtual="header.inc"-->
+  </head>
+
+<!--#include virtual="banner.inc"-->
+
+<main id="page" role="main">
+    <div id="content" class="main-content"
+         data-content-field="main-content"
+         data-collection-id="5af332480e2e72d9649796df"
+         data-edit-main-image="Banner">
+        <div class="sqs-layout sqs-grid-12 columns-12"
+         data-type="page" data-updated-on="1525887782635"
+         id="page-5af332480e2e72d9649796df">
+            <div class="row
+        sqs-row">
+                <div class="col sqs-col-12
+        span-12">
+                    <div class="sqs-block html-block sqs-block-html"
+                    data-block-type="2"
+                    id="block-cc2cb79b7288d1ed3c3b">
+                        <div class="sqs-block-content">
+
+                            <p>Trimaran began as a collaborative effort between the Compiler and
+                            Architecture Research (CAR) Group (once a member of Hewlett Packard
+                            Laboratories), the IMPACT Group at the University of Illinois, and the
+                            ReaCT-ILP Laboratory at New York University (later known as CREST, the
+                            Center for Research on Embedded Systems and Technology at the Georgia
+                            Institute of Technology).</p>
+
+                            <p>Trimaran is also the result of many
+                              contributions from students, faculty,
+                              and researchers spanning several years
+                              of research and development. If you
+                              would like to contribute a new module to
+                              Trimaran, please contact <strong>support
+                              at
+        trimaran.org</strong>. The following lists the names of
+                              Trimaran contributors to date. If you
+                              have contributed to Trimaran but your
+                              name does not appear below, please
+                              contact <strong>support at
+                              trimaran.org</strong> and let us know.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sqs-block
+        horizontalrule-block sqs-block-horizontalrule"
+        data-block-type="47" id="block-3640b07edbfe3aff0d54">
+                        <div class="sqs-block-content">
+                            <hr />
+                        </div>
+                    </div>
+                    <div class="sqs-block
+        html-block sqs-block-html sqs-col-6 span-6 float float-right"
+        data-block-type="2"
+        id="block-yui_3_17_2_1_1525887560617_9013">
+                        <div class="sqs-block-content">
+                            <p><strong>University
+        of Illinois (IMPACT)</strong>:
+                                <br />David August
+                                <br />Roger Bringmann
+                                <br />Pohua Chang
+                                <br />William Chen
+                                <br />Ben-Chung Cheng
+                                <br />Dan Connors
+                                <br />Kevin Crozier
+                                <br />Brian Deitrich
+                                <br />David Gallagher
+                                <br />John Gyllenhaal
+                                <br />Grant Haab
+                                <br />Richard Hank
+                                <br />Hillery Hunter
+                                <br />Sabrina Hwu
+                                <br />Wen-mei Hwu
+                                <br />Teresa Johnson
+                                <br />Robert Kidd
+                                <br />Hong-Seok Kim
+                                <br />Dan Lavery
+                                <br />Eric Nystrom
+                                <br />Shane Ryoo
+                                <br />John Sias
+                                <br />Sain-Zee Ueng
+                                <br />Nancy Warter
+                                <br />Le-Chun Wu
+                            </p>
+                            <p><strong>Massachusetts Institute of
+        Technology</strong>:
+                                <br />Mark Hampton
+                                <br />Sam Larsen
+                            </p>
+                            <p><strong>George Washington
+        University</strong>:
+                                <br />Yogesh Chobe
+                                <br />Ajay Jayaraj
+                            </p>
+                            <p><strong>Georgia Institute of Technology
+        (CREST)</strong>:
+                                <br />Lakshmi Chakrapani
+                                <br />Mongkol Ekpanyapong
+                                <br />Weng-fai Wong
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sqs-block html-block
+        sqs-block-html" data-block-type="2"
+        id="block-305253f25f9039720edf">
+                        <div class="sqs-block-content">
+                            <p><strong>HP Labs (CAR)</strong>:
+                                <br />Santosh Abraham
+                                <br />Sadun Anik
+                                <br />Shail Aditya Gupta
+                                <br />Richard Johnson
+                                <br />Vinod Kathail
+                                <br />Scott Mahlke
+                                <br />Bob Rau
+                                <br />Mike Schlansker
+                                <br />Robert Schreiber
+                                <br />Greg Snider
+                            </p>
+                            <p><strong>CAR Interns at HP Labs)</strong>:
+                                <br />Alex Eichenberger, University of Michigan ('94, '95)
+                                <br />Joel Jones, University of Illinois ('94, '95)
+                                <br />Sirni Mantripragada, University of California Irvine ('94)
+                                <br />David August, University of Illinois ('95) 
+                                <br />Brian Deitrich, University of Illinois ('95)
+                                <br />Teresa Johnson, University of Illinois ('96)
+                                <br />Matthai Philipose, University of Washington ('96)
+                                <br />Sumedh Sathaye, North Carolina State University ('96)
+                                <br />Marnix Arnold, Delft University ('97)
+                                <br />Daniel Connors, University of Illinois ('97)
+                                <br />Matt Jennings, North Carolina State University ('97)
+                                <br />Suren Talla, New York University ('97)
+                            </p>
+                            <p><strong>New York University (ReaCT-ILP)</strong>:
+                                <br />Robert Dewar
+                                <br />Ben Goldberg
+                                <br />Hansoo Kim
+                                <br />Amit Nene
+                                <br />Krishna Palem
+                                <br />Igor Petchansky
+                                <br />Rodric Rabbah
+                                <br />Suren Talla
+                                <br />Sam Tregar</p>
+                            <p><strong>University of Michigan (CCCP)</strong>:
+                                <br />Jason Blome
+                                <br />Michael Chu
+                                <br />Nate Clark
+                                <br />Ganesh Dasika
+                                <br />Aaron Erlandson
+                                <br />Kevin Fan
+                                <br />Shuguang Feng
+                                <br />Shantanu Gupta
+                                <br />Amir Hormati
+                                <br />Manjunath Kudlur
+                                <br />Steve Lieberman
+                                <br />Yuan Lin
+                                <br />Scott Mahlke
+                                <br />Robert Mullenix
+                                <br />Pracheeti Nagarkar
+                                <br />Hyunchul Park
+                                <br />Rajiv Ravindran
+                                <br />Mikhail Smelyanskiy
+                                <br />Hongtao Zhong
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!--#include virtual="footer.inc"-->

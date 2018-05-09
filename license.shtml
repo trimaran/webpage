@@ -1,0 +1,153 @@
+<!doctype html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <base href="">
+    <meta charset="utf-8" />
+    <title>Trimaran - License</title>
+
+    <!--#include virtual="header.inc"-->
+  </head>
+
+<!--#include virtual="banner.inc"-->
+
+<main id="page" role="main">
+
+    <div id="content" class="main-content"
+        data-content-field="main-content"
+        data-collection-id="5af345c1aa4a99b38824ac0e"
+        data-edit-main-image="Banner">
+        <div class="sqs-layout sqs-grid-12 columns-12"
+        data-type="page" data-updated-on="1525892593974"
+        id="page-5af345c1aa4a99b38824ac0e">
+            <div class="row sqs-row">
+                <div class="col sqs-col-3 span-3">
+                    <div class="sqs-block html-block sqs-block-html"
+                    data-block-type="2"
+                    id="block-697c40e37fc9de2b92e6">
+                        <div class="sqs-block-content">
+                            <h2><strong>Distributor
+                            Notice</strong></h2></div>
+                    </div>
+                </div>
+                <div class="col sqs-col-9 span-9">
+                    <div class="sqs-block html-block sqs-block-html"
+                    data-block-type="2"
+                    id="block-6c70443b4d4b0c164646">
+                        <div class="sqs-block-content">
+                            <p><strong>Any individual or entity
+                            downloading software from this web site
+                            which is www.trimaran.org acknowledges and
+                            agrees that said software will be used
+                            pursuant to the
+                            respective license
+                            agreements and copyright notices set
+                            forth below.</strong> Each of the software
+                            modules being downloaded is governed by
+                            either the license agreement or the
+                            copyright notice which can be found in the
+                            heading of each of the program source
+                            files.
+                                <br />
+                                <br />The individuals who are in any
+                            way involved with the creation,
+                            maintenance, management, modification,
+                            structure, or expense for this web site
+                            (hereinafter collectively referred to as
+                            "Distributors") make no representations
+                            about the suitability of this software for
+                            any purpose. All software is provided on
+                            an "as is" basis and there are no
+                            waranties, express or implied, including
+                            but not limited to any warranty of
+                            merchantability or fitness for a
+                            particular purpose.
+                                <br />
+                                <br />Distributors make no
+                            representation or warranties, either
+                            express or implied, as to the validity of
+                            any claims of copyright or ownership by
+                            any person and Distributors shall have no
+                            liability, responsibility or obligation
+                            for the infringement of any proprietary
+                            rights by an owner, user, licensor,
+                            licensee or third party.
+                                <br />
+                                <br />In no event shall the
+                            Distributors be liable to any owner, user,
+                            licensor, licensee or third party for any
+                            damages, including but not limited to
+                            direct, indirect, special or
+                            consequential, arising out of or related
+                            to the downloading of any software or the
+                            modifications or redistribution of any
+                            software deposited at this site by any
+                            person, persons or organizations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row sqs-row">
+                <div class="col sqs-col-12 span-12">
+                    <div class="sqs-block horizontalrule-block
+                    sqs-block-horizontalrule" data-block-type="47"
+                    id="block-e31c6696e30a54dd0f98">
+                        <div class="sqs-block-content">
+                            <hr />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row sqs-row">
+                <div class="col sqs-col-3 span-3">
+                    <div class="sqs-block html-block sqs-block-html"
+                    data-block-type="2"
+                    id="block-53ca6482dac9aca68eee">
+                        <div class="sqs-block-content">
+                            <h2><strong>License and
+                            Copyright</strong></h2></div>
+                    </div>
+                </div>
+                <div class="col sqs-col-9 span-9">
+                    <div class="sqs-block html-block sqs-block-html"
+                    data-block-type="2"
+                    id="block-e0991360022d4b9a832e">
+                        <div class="sqs-block-content">
+                            <p>Most of the Trimaran software is
+                            released under a
+                            uniform <a href="general_license.html">Software
+                            License Agreement Notice</a>, which, with
+                            the copyright notice filled in
+                            appropriately, appears at the beginning of
+                            each program source file governed by this
+                            agreement. At present, ReaCT-ILP
+                            contributed code is distributed under a
+                            similar but not
+                            identical <a href="reactilp_license.shtml">ReaCT-ILP
+                            License Agreement and Copyright
+                            Notice</a>, which also appears at the
+                            beginning of each program source file
+                            governed by this agreement. Please review
+                            both these agreements before you download
+                            the software.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row sqs-row">
+                <div class="col sqs-col-12 span-12">
+                    <div class="sqs-block horizontalrule-block
+                    sqs-block-horizontalrule" data-block-type="47"
+                    id="block-c0cefdc318525d9432ef">
+                        <div class="sqs-block-content">
+                            <hr />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!--#Include virtual="footer.inc"-->
