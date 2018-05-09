@@ -52,7 +52,7 @@
         rewritten and many optimizations have been added to the
         default path.</li><li>Significantly improved code
         quality.</li><li>Lots of bug fixes.</li><li>A new
-        comprehensive <a href="http://www.trimaran.org/docs/trimaran4_manual.pdf">manual</a>.</li></ul></div></div></div></div><div class="row
+        comprehensive <a href="docs/trimaran4_manual.pdf">manual</a>.</li></ul></div></div></div></div><div class="row
         sqs-row"><div class="col sqs-col-12
         span-12"><div class="sqs-block horizontalrule-block
         sqs-block-horizontalrule" data-block-type="47"
@@ -83,9 +83,9 @@
         id="block-yui_3_17_2_1_1525884529759_11166"><div class="sqs-block-content"><h2><strong>12/16/2007</strong><br />Benchmarks</h2></div></div><div class="sqs-block
         html-block sqs-block-html" data-block-type="2"
         id="block-yui_3_17_2_1_1525884529759_10088"><div class="sqs-block-content"><p>New
-        <a href="http://www.trimaran.org/benchmarks.shtml">benchmark
+        <a href="download.html">benchmark
           packages</a> are available
-          for <a href="http://www.trimaran.org/download.shtml">download</a>.</p></div></div><div class="sqs-block
+          for <a href="download.html">download</a>.</p></div></div><div class="sqs-block
           horizontalrule-block sqs-block-horizontalrule"
           data-block-type="47"
           id="block-yui_3_17_2_1_1525884529759_30100"><div class="sqs-block-content"><hr /></div></div></div></div><div class="row
@@ -103,9 +103,7 @@
           popular demand.<br /><br />There are various other features
           that were added (and bugs fixes) but not documented
           here. This release does pass our regression test suite and
-          is fairly stable. Please report any problems directly to the
-          <a href="http://www.trimaran.org/support.shtml">support
-            team</a>. A new Trimaran distribution will also be made
+          is fairly stable. A new Trimaran distribution will also be made
             available soon which will include support for clustered
             architectures.<br /><br />Note that as with all memory
             simulations, there are various details that are hard to
