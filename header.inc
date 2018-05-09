@@ -1,4 +1,4 @@
-<link rel="shortcut icon" type="image/x-icon" href="https://static.squarespace.com/universal/default-favicon.ico"/>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
 <link rel="canonical" href="https://trimaran.org"/>
 <meta property="og:site_name" content="Trimaran"/>
 <meta property="og:title" content="Trimaran"/>
