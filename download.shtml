@@ -70,28 +70,28 @@
                             <p><strong>Download:</strong></p>
                             <ul>
                                 <li>Trimaran
-                                4.0:<a href="http://www.trimaran.org/cgi-bin/download.pl?trimaran_4_0.tar.gz">
+                                4.0:<a href="files/trimaran_4_0.tar.gz">
                                 trimaran_4_0.tar.gz</a> (13MB)</li>
                                 <li>Trimaran
-                                3.7: <a href="http://www.trimaran.org/cgi-bin/download.pl?trimaran_3_7.tar.gz">trimaran_3_7.tar.gz</a>
+                                3.7: <a href="files/trimaran_3_7.tar.gz">trimaran_3_7.tar.gz</a>
                                 (8.1MB)</li>
                                 <li>Trimaran
-                                3.1: <a href="http://www.trimaran.org/cgi-bin/download.pl?trimaran_3_1.tar.gz">trimaran_3_1.tar.gz</a>
+                                3.1: <a href="files/trimaran_3_1.tar.gz">trimaran_3_1.tar.gz</a>
                                 (7.4MB)</li>
                                 <li>Trimaran
-                                2.1: <a href="http://www.trimaran.org/cgi-bin/download.pl?trimaran_2_1.tar.gz">trimaran_2_1.tar.gz</a>
+                                2.1: <a href="files/trimaran_2_1.tar.gz">trimaran_2_1.tar.gz</a>
                                 (7.9MB) Trimaran 2.0 with an ARM code
                                 generator.</li>
                                 <li>Trimaran
-                                2.0: <a href="http://www.trimaran.org/cgi-bin/download.pl?trimaran_2_0.tar.gz">trimaran_2_0.tar.gz</a>
+                                2.0: <a href="files/trimaran_2_0.tar.gz">trimaran_2_0.tar.gz</a>
                                 (7.3MB)</li>
                                 <li>Trimaran
-                                1.0: <a href="http://www.trimaran.org/cgi-bin/download.pl?trimaran_1_0.tar.gz">trimaran_1_0.tar.gz</a>
+                                1.0: <a href="files/trimaran_1_0.tar.gz">trimaran_1_0.tar.gz</a>
                                 (9.9MB)</li>
                             </ul>
 
                             <p>Read
-                            the <a href="http://www.trimaran.org/documentation.shtml">Trimaran
+                            the <a href="documentation.html">Trimaran
                             manual</a> for installation instructions
                             as well instructions on how to use and
                             develop in Trimaran.</p>
@@ -142,9 +142,9 @@
                             <p><strong>Download:</strong></p>
                             <ul dir="ltr">
                                 <li>SUIF
-                                1.3.0.5: <a href="http://www.trimaran.org/cgi-bin/download.pl?suif-1.3.0.5-trimaran.tar.gz">suif-1.3.0.5-trimaran.tar.gz </a>(3.0MB)</li>
+                                1.3.0.5: <a href="files/suif-1.3.0.5-trimaran.tar.gz">suif-1.3.0.5-trimaran.tar.gz </a>(3.0MB)</li>
                                 <li>SUIF IR to Trimaran IR (lcode)
-                                compiler: <a href="http://www.trimaran.org/cgi-bin/download.pl?s2lc.tar.gz">s2lc.tar.gz</a>
+                                compiler: <a href="files/s2lc.tar.gz">s2lc.tar.gz</a>
                                 (44KB )</li>
                             </ul>
                         </div>
@@ -209,17 +209,14 @@
                             of the downloaded files files for
                             details.</p>
                             <ul>
-                                <li>SPEC
-                                INT 2K</li>
-                                <li>SPEC
-                                INT 95</li>
-                                <li>SPEC
-                                INT 92</li>
-                                <li>MEDIABENCH</li>
-                                <li>OLDEN</li>
-                                <li>MiBench</li>
-                                <li>NetBench</li>
-                                <li>Encryption</li>
+                                <li>SPEC INT 2K (<a href="files/SPECint00.tgz">tgz</a>)</li>
+                                <li>SPEC INT 95 (<a href="files/SPECint95.tgz">tgz</a>)</li>
+                                <li>SPEC INT 92 (<a href="files/SPECint92.tgz">tgz</a>)</li>
+                                <li>MEDIABENCH (<a href="files/mediabench.tgzz">tgz</a>)</li>
+                                <li>OLDEN (<a href="files/olden.tgz">tgz</a>)</li>
+                                <li>MiBench (<a href="files/mibench.tgz">tgz</a>)</li>
+                                <li>NetBench (<a href="files/netbench.tgz">tgz</a>)</li>
+                                <li>Encryption (<a href="files/encryption.tgz">tgz</a>)</li>
                             </ul>
                         </div>
                     </div>
