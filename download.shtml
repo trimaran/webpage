@@ -21,20 +21,12 @@
         data-type="page" data-updated-on="1525887460850"
         id="page-5af32c29352f5311f126600a">
             <div class="row sqs-row">
-                <div class="col sqs-col-3 span-3">
-                    <div class="sqs-block html-block sqs-block-html"
-                    data-block-type="2"
-                    id="block-e4a743722e1fda7bc96d">
-                        <div class="sqs-block-content">
-                            <h2>TRIMARAN</h2></div>
-                    </div>
-                </div>
                 <div class="col sqs-col-9 span-9">
                     <div class="sqs-block html-block sqs-block-html"
                     data-block-type="2"
                     id="block-dd6d4bb54216d49ee9a5">
                         <div class="sqs-block-content">
-                            <p>This Trimaran release has been
+                            <p>Trimaran was
                             extensively tested using Fedora Core 3, 4
                             and 5 on x86 Linux, as well as Redhat
                             Enterprise Linux 4 running on
