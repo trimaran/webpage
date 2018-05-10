@@ -17,4 +17,4 @@
 <meta name="description" content="" />
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:400,700,700i,400i"/>
 <link rel="stylesheet" type="text/css" href="style.css"/>
-<script src="common.js"></script>
+

@@ -45,9 +45,8 @@
   </div>
 
 <div id="siteWrapper" class="clearfix">
-  <div class="sqs-cart-dropzone"></div>
 
-  <header id="header" class="show-on-scroll" data-offset-el=".index-section" data-offset-behavior="bottom" role="banner">
+  <header id="header" class="show-on-scroll">
 
     <div class="header-inner">
 
