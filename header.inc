@@ -18,3 +18,18 @@
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:400,700,700i,400i"/>
 <link rel="stylesheet" type="text/css" href="style.css"/>
 
+<script>
+function toggleNav() {
+  var m = document.getElementById("sidecarNav");
+  var b = document.getElementById("body");
+  if (m.closed === undefined || m.closed) {
+    b.classList.add("mobile-nav-open")
+    m.classList.add("mobile-nav-open")
+    m.closed = false;
+  } else {
+    b.classList.remove("mobile-nav-open")
+    m.classList.remove("mobile-nav-open")
+    m.closed = true;
+  }
+}
+</script>
