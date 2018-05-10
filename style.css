@@ -15762,8 +15762,8 @@ blockquote {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-animation: header-anim 1s ease-in-out;
-    animation: header-anim 1s ease-in-out
+    -webkit-animation: header-anim 0s ease-in-out;
+    animation: header-anim 0s ease-in-out
 }
 
 .footer-inner {
