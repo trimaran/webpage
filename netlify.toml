@@ -1,8 +1,14 @@
 [build]
-  command = "npm install -g shtml2html && shtml2html -d ."
+  command = "npm install -g shtml2html && shtml2html -d . && shtml2html -s car -d car"
 
 [[redirects]]
   from = "/car_group/*"
   to = "/car/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "car_group.shtml"
+  to = "/car/index.html"
   status = 301
   force = false

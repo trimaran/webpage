@@ -1,19 +1,33 @@
-<html>
+<!doctype html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <base href="">
+    <meta charset="utf-8" />
+    <title>CAR Group Research Interns</title>
 
-<head>
-  <title>CAR Group Research Interns</title>
-  <base href="http://www.trimaran.org/">
-  <link rel="stylesheet" href="style.css" type="text/css">
-<!--[if lt IE 7]>
-<script defer type="text/javascript" src="pngfix.js"></script>
-<![endif]-->
+    <!--#include virtual="../header.inc"-->
+  </head>
 
-</head>
-
-<!--#include virtual="../header.inc"-->
+<!--#include virtual="../banner.inc"-->
+<main id="page" role="main">
+    <div id="content" class="main-content"
+        data-content-field="main-content"
+        data-collection-id="5af2447aaa4a99ed9ecba221"
+        data-edit-main-image="Banner">
+        <div class="sqs-layout sqs-grid-12 columns-12"
+        data-type="page" data-updated-on="1525895766355"
+        id="page-5af2447aaa4a99ed9ecba221">
+            <div class="row sqs-row">
+                <div class="col sqs-col-12 span-12">
+                    <div class="sqs-block html-block sqs-block-html"
+                    data-block-type="2"
+                    id="block-20d2d7d07ef691626788">
+                        <div class="sqs-block-content">
 
   <p align="right">
-    <font size=+3><b>Research Interns</b></font><br>
+    <b>Research Interns</b></font><br>
     <hr>
   </p>
   <ul>
@@ -61,5 +75,13 @@
     resource and recurrence estimators for acyclic code, and an iterative
     data height reduction system to reduce critical path lengths.</li>
     </p></ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 
 <!--#include virtual="../footer.inc"-->
