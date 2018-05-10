@@ -6,37 +6,37 @@
     <div id="mobileNavWrapper" class="nav-wrapper" data-content-field="navigation-mobileNav">
       <nav id="mobileNavigation">
          <div class="collection active homepage">
-            <a href="index.html">
+            <a href="/index.html">
               Trimaran
             </a>
          </div>
             
          <div class="collection">
-            <a href="overview.html">
+            <a href="/overview.html">
               OVERVIEW
             </a>
          </div>
             
          <div class="collection">
-            <a href="documentation.html">
+            <a href="/documentation.html">
               DOCUMENTATION
             </a>
          </div>
             
          <div class="collection">
-            <a href="news.html">
+            <a href="/news.html">
               NEWS
             </a>
          </div>
             
          <div class="collection">
-            <a href="contributors.html">
+            <a href="/contributors.html">
               CONTRIBUTORS
             </a>
          </div>
             
          <div class="collection">
-            <a href="download.html">
+            <a href="/download.html">
               DOWNLOAD
             </a>
          </div>
@@ -66,37 +66,37 @@
           <nav id="mainNavigation" data-content-field="navigation-mainNav">
             
             <div class="collection active homepage">
-              <a href="index.html">
+              <a href="/index.html">
                 Trimaran
               </a>
             </div>
 
             <div class="collection">
-              <a href="overview.html">
+              <a href="/overview.html">
                 OVERVIEW
               </a>
             </div>
 
             <div class="collection">
-              <a href="documentation.html">
+              <a href="/documentation.html">
                 DOCUMENTATION
               </a>
             </div>
           
             <div class="collection">
-              <a href="news.html">
+              <a href="/news.html">
                 NEWS
               </a>
             </div>
             
             <div class="collection">
-              <a href="contributors.html">
+              <a href="/contributors.html">
                 CONTRIBUTORS
               </a>
             </div>
 
             <div class="collection">
-              <a href="download.html">
+              <a href="/download.html">
                 DOWNLOAD
               </a>
             </div>
