@@ -5,7 +5,7 @@
     
     <base href="">
     <meta charset="utf-8" />
-    <title>Trimaran - Overview</title>
+    <title>Overview</title>
 
     <!--#include virtual="header.inc"-->
   </head>

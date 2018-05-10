@@ -19,6 +19,11 @@
 <link rel="stylesheet" type="text/css" href="style.css"/>
 
 <script>
+function navBannerTitle() {
+  var t = document.getElementById("navBarTitle");
+  t.innerHTML = document.title;
+}
+
 function toggleNav() {
   var m = document.getElementById("sidecarNav");
   var b = document.getElementById("body");
