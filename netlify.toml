@@ -1,0 +1,8 @@
+[build]
+  command = "npm install -g shtml2html && shtml2html -d ."
+
+[[redirects]]
+  from = "/car_group/*"
+  to = "/car/:splat"
+  status = 301
+  force = false
